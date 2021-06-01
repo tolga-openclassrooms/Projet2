@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fb7cd99955.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESERVIA</title>
+    <title>Reservia</title>
 </head>
 <body>
     <div id="bloc_page">
@@ -15,10 +16,25 @@
                     <img src="images/logo/Reservia.svg" alt="logo reservia"/>
                     <h1 class="titregras">Trouvez votre hébergement pour des vacances de rêve </h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                        
+                    <nav>
+                        <li><a href="#">Hébergement</a></li>
+                        <li><a href="#">Activités</a></li>
+                        <li><a href="#">S'inscrire</a></li>
+                    </nav>
+                    <i class="fas fa-info-circle"></i>
                 </div>
             </div>
         </header>
+
+        <section>
+            <div id="recherche">
+                <form method="post" action="traitement.php">
+                    <p>
+                        <input type="text" name="search" />
+                    </p>
+                </form>
+            </div>
+        </section>
     </div>
 
 
