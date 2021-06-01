@@ -17,11 +17,13 @@
                     <h1 class="titregras">Trouvez votre hébergement pour des vacances de rêve </h1>
                     <p>En plein centre ville ou en pleine nature</p>
                     <nav>
-                        <li><a href="#">Hébergement</a></li>
-                        <li><a href="#">Activités</a></li>
-                        <li><a href="#">S'inscrire</a></li>
+                        <ul>
+                            <li><a href="#">Hébergement</a></li>
+                            <li><a href="#">Activités</a></li>
+                            <li><a href="#">S'inscrire</a></li>
+                        </ul>
                     </nav>
-                    <i class="fas fa-info-circle"></i>
+                    
                 </div>
             </div>
         </header>
@@ -30,11 +32,36 @@
             <div id="recherche">
                 <form method="post" action="traitement.php">
                     <p>
-                        <input type="text" name="search" />
+                        <i class="fas fa-map-marker-alt"></i>
+                        
+                        <input type="text" name="search" value="Marseille, France"/>
+                        <label for="Rechercher">Rechercher</label>
                     </p>
+
+                    <p>Filtres</p>
+                    <nav>
+                        <ul>
+                        
+                            <li><i class="fas fa-money-bill-wave-alt"></i><a href="*">Economique</a></li>
+                        
+                            <li><i class="fas fa-child"></i><a href="*">Familial</a></li>
+                        
+                            <li><i class="fas fa-heart"></i><a href="*">Romantique</a></li>
+                        
+                            <li><i class="fas fa-dog"></i><a href="*">Animaux autorisés</a></li>
+                        </ul>
+                    </nav>
                 </form>
             </div>
         </section>
+
+        <section>
+            <article>
+                <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            </article>
+        </section>
+
+
     </div>
 
 
