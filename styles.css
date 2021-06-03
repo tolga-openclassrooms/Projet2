@@ -1,4 +1,4 @@
-@font-face {
+@font-face { /* Définition d'une nouvelle police nommée Raleway*/
     font-family: 'Raleway';
     src: url(Raleway/static/Raleway-Black.ttf) format('truetype')
         url(raleway/static/Raleway-BlackItalic.ttf) format('truetype')
@@ -26,3 +26,22 @@
     url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype')
     url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
 }
+body{
+    display: block;
+}
+header{
+    display: flex;
+}
+
+#Accueil{
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+
