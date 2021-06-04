@@ -25,5 +25,25 @@
     src:
     url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype')
     url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+}
 
+header{
+    display: flex;
+    flex-direction: row;
+}
+#logo img
+{
+    display: flex;
+}
+ .menunav ul
+{
+display: flex;
+list-style-type: none;
+}
+.menunav a 
+{
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-end;
+}
 
