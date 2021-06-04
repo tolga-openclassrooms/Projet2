@@ -25,23 +25,5 @@
     src:
     url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype')
     url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
-}
-body{
-    display: block;
-}
-header{
-    display: flex;
-}
 
-#Accueil{
-    display: flex;
-    justify-content: flex-end;
-}
-h1{
-    font-size: 25px;
-}
-
-ul{
-    list-style-type: none;
-}
 

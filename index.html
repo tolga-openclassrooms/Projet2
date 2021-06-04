@@ -9,27 +9,23 @@
     <title>Reservia</title>
 </head>
 <body>
-    <div id="bloc_page">
+    <div class="bloc_page">   
         <header>
-            <div id="titre_principal">
-                <div id="logo">
-                    <img src="images/logo/Reservia.svg" alt="logo reservia"/>
-                </div>
-                    <h1 class="titregras">Trouvez votre hébergement pour des vacances de rêve </h1>
-                    <p><em> En plein centre ville ou en pleine nature </em></p>
-                    <nav id="Accueil">
-                        <ul>
-                            <li>hébergement</li>
-                            <li>activites</li>
-                            <li>s'inscrire</li>
-                        </ul>
-                    
-                    </nav>
-                
+            <div id="logo">
+                <img src="images/logo/Reservia.svg" alt="logo reservia"/>
             </div>
-        </header>
-
-        
+            
+            <nav id="menunav">
+                <a href="#hébergements" id="hébergements">hébergements</a>
+                <a href="#activités" id="activités"> Activités</a>
+                <a href="#inscription" class="inscription"><strong>S'inscrire</strong></a>
+                </nav>
+        </header> 
+            
+        <section class="recherche">    
+            <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+            <p><em> En plein centre ville ou en pleine nature </em></p>
+                 
             <div id="recherche">
                 <form method="post" action="traitement.php">
                     <p>
@@ -39,7 +35,6 @@
                        
                     <button>  
                         <span class="boutonderecherche">Rechercher</span>
-
                     </button>
                     </p>
                     
@@ -57,10 +52,10 @@
             </div>
         
 
-        <div class="info">
-            <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-
+            <div class="info">
+                <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
         <section>
             <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
             <aside class="populaire">
@@ -234,8 +229,8 @@
                 <p><em>Nous contacter</em></p>
             </div>
         </footer>
-
     </div>
+   
 
 
     
