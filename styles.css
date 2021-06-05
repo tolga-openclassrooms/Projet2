@@ -27,6 +27,9 @@
     url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
+body{
+    margin-left: 30px;
+}
 header{
     
     display: flex;
@@ -38,9 +41,9 @@ header{
 {
     display: flex;
     justify-content: flex-start;
-   width: 150px;
+   width: 100px;
    margin-top: 30px;
-   margin-left: 30px;
+   margin-left: 10px;
    margin-bottom: 50px;
 }
  .menunav ul
@@ -51,9 +54,11 @@ justify-content: end;
 margin-top: 55px;
 margin-left: 800px;
 
+
 }
 .menunav a 
 {
+    border-top: blue;
     display: flex;
     margin-left: 60px;
    justify-content: end;
@@ -71,3 +76,36 @@ margin-left: 800px;
     width: 200px;
 	height: 200px;
 }
+
+h1
+{
+    font-size: 2.2em;
+}
+
+.recherche em
+{font-size: 1.5em;}
+
+.recherche h1 {
+    margin-bottom: 1%;
+}
+
+button{
+    background-color: blue;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#recherche form
+{
+    font-size: 2.0em;
+}
+
+form p i{
+ border: solid 3px black;
+ border-radius: 5px 5px 5px 5px;
+ background-color: #F2F2F2;
+}
+
+
+
+
+
