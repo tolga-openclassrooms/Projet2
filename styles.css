@@ -20,61 +20,63 @@
         url(raleway/static/Raleway-ThinItalic.ttf) format('truetype');
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'raleway';
     src:
     url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype')
     url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
-body {
+body 
+{
     font-family: "Raleway", "Sans serif";
-    margin: 0;
-  }
-header{
-    
+    margin: 20px;
+}
+header
+{
     display: flex;
     position: relative;
     margin: auto;
-    
 }
 #logo img
 {
     display: flex;
     justify-content: flex-start;
-   width: 100px;
-   margin-top: 30px;
-   margin-left: 10px;
-   margin-bottom: 5px;
+    width: 100px;
+    margin-top: 30px;
+     margin-left: 10px;
+   
 }
  .menunav ul
 {
-display: flex;
-list-style-type: none;
-justify-content: end;
-margin-top: 55px;
-margin-left: 900px;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    margin-top: 55px;
+    margin-left: 880px;
 }
 .menunav a 
 {
-    
     text-decoration:none;
-    border-top: ;
     display: flex;
     margin-left: 60px;
-   justify-content: end;
-   font-size: 20px;
-   color: #0065FC;
-}
-
-.menunav a:hover{
-    border-top: 3px solid #0065FC;
-}
-.menunav a:hover .Activités{
+    justify-content: end;
+    font-size: 20px;
     color: #0065FC;
 }
 
-.menunav ul a .Activités{
+.menunav a:hover
+{
+    border-top: 3px solid #0065FC;
+}
+.menunav a:hover .Activités
+{
+    color: #0065FC;
+}
+
+.menunav ul a .Activités
+{
     color: black;
 }
 
@@ -94,41 +96,71 @@ margin-left: 900px;
 
 h1
 {
-    font-size: 2.2em;
-}
-
-.recherche em
-{font-size: 1.5em;}
-
-.recherche h1 {
-    margin-bottom: 1%;
-}
-
-button{
-    background-color: blue;
-    border-radius: 3px 3px 3px 3px;
-    font-size: 1em;
-}
-
-#recherche form
-{
     font-size: 2.0em;
 }
 
-form p i{
- border: solid 3px black;
- border-radius: 5px 5px 5px 5px;
- background-color: #F2F2F2;
+.recherche #recherche .icone
+{
+    color: black;
 }
 
-#recherche i 
-{font-size: 1em;}
+.recherche em
+{
+    font-size: 1.2em;
+}
 
-#recherche input{
+.recherche h1 
+{
+    margin-bottom: 0.10em;
+}
 
+button
+{
+    background-color: blue;
+    border-radius:0 1em 1em 0 ;
     font-size: 1em;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+form
+{
+   
+    border-collapse: collapse;
 }
 
 
+#recherche form p i
+{
+   font-size: 0.75em;
+   border: solid 1px black;
+   padding: 5px;
+}
 
+#recherche form p input
+{
+    padding: 2px;
+}
 
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filtres ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.filtres ul li 
+{
+    margin-left: 15px;
+}
+
+.filtres ul li i
+{
+    color: blue;
+}
