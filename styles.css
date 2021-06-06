@@ -45,7 +45,7 @@ header{
    width: 100px;
    margin-top: 30px;
    margin-left: 10px;
-   margin-bottom: 50px;
+   margin-bottom: 5px;
 }
  .menunav ul
 {
@@ -53,19 +53,29 @@ display: flex;
 list-style-type: none;
 justify-content: end;
 margin-top: 55px;
-margin-left: 800px;
-
-
+margin-left: 900px;
 }
 .menunav a 
 {
     
     text-decoration:none;
-    border-top: blue;
+    border-top: ;
     display: flex;
     margin-left: 60px;
    justify-content: end;
    font-size: 20px;
+   color: #0065FC;
+}
+
+.menunav a:hover{
+    border-top: 3px solid #0065FC;
+}
+.menunav a:hover .Activités{
+    color: #0065FC;
+}
+
+.menunav ul a .Activités{
+    color: black;
 }
 
 
@@ -118,9 +128,7 @@ form p i{
 
     font-size: 1em;
 }
-#rexcherche p {
-    position: relative;
-}
+
 
 
 
