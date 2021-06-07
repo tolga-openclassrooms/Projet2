@@ -1,4 +1,5 @@
-@font-face { /* Définition d'une nouvelle police nommée Raleway*/
+/*@font-face 
+ { Définition d'une nouvelle police nommée Raleway
     font-family: 'Raleway';
     src: url(Raleway/static/Raleway-Black.ttf) format('truetype')
         url(raleway/static/Raleway-BlackItalic.ttf) format('truetype')
@@ -18,19 +19,20 @@
         url(raleway/static/Raleway-SemiBoldItalic.ttf) format('truetype')
         url(raleway/static/Raleway-Thin.ttf) format('truetype')
         url(raleway/static/Raleway-ThinItalic.ttf) format('truetype');
-}
+} */
 
 @font-face 
 {
-    font-family: 'raleway';
-    src:
-    url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype')
-    url(raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+    font-family: 'Raleway';
+    src: url(Raleway/Raleway-VariableFont_wght.ttf) format('truetype')
+         url(Raleway/raleway-variablefont_wght-webfont.woff) format('woff')
+         url(Raleway/raleway-variablefont_wght-webfont.woff2) format('woff2');
+    /* url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype') */
 }
 
 body 
 {
-    font-family: "Raleway", "Sans serif";
+    font-family: "Raleway", "Arial", "Sans serif";
     margin: 20px;
 }
 header
@@ -39,7 +41,8 @@ header
     position: relative;
     margin: auto;
 }
-#logo img
+header img
+
 {
     display: flex;
     justify-content: flex-start;
@@ -64,11 +67,12 @@ header
     justify-content: end;
     font-size: 20px;
     color: #0065FC;
+    border-top: 2px solid #ffffff;
 }
 
 .menunav a:hover
 {
-    border-top: 3px solid #0065FC;
+    border-top: 2px solid #0065FC;
 }
 .menunav a:hover .Activités
 {
@@ -116,31 +120,49 @@ h1
 
 button
 {
-    background-color: blue;
+    background-color:#0065FC;
     border-radius:0 1em 1em 0 ;
-    font-size: 1em;
+    font-size: 1.15rem;
     color: white;
-    padding: 0 1.5rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 30px;
+    
 }
 
-form
-{
-   
-    border-collapse: collapse;
-}
 
 
 #recherche form p i
 {
-   font-size: 0.75em;
-   border: solid 1px black;
-   padding: 5px;
+    background-color: #F2F2F2;
+    padding: 1rem 1rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    font-size: 1em;
 }
+
 
 #recherche form p input
 {
-    padding: 2px;
+border-right: none;
+border-left: none;
+border-top: #F2F2F2 1px solid;
+border-bottom: #F2F2F2 1px solid;
+padding-bottom: 0.25em;
+
+font-size: 2em;
+font-weight: bold;
+font-family: "Raleway","Sans serif";
 }
+
+
+.recherche #recherche form
+    {
+        display: inline-flex;
+        max-width: 100%;
+        overflow: auto;
+        font-size: 0.80em;
+        padding: 1.5rem 1.5rem;
+    }
 
 .filtres
 {
