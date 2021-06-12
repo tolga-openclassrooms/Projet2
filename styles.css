@@ -30,159 +30,56 @@
     /* url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype') */
 }
 
-body 
-{
-    font-family: "Raleway", "Arial", "Sans serif";
-    margin: 20px;
-}
-header
-{
-    display: flex;
-    position: relative;
-    margin: auto;
-}
-header img
-
-{
-    display: flex;
+header img{
+    display: inline-flex;
     justify-content: flex-start;
-    width: 100px;
-    margin-top: 30px;
-     margin-left: 10px;
-   
 }
- .menunav ul
-{
+
+header .inscription{
+    float: right;
     display: flex;
-    list-style-type: none;
-    justify-content: end;
-    margin-top: 55px;
-    margin-left: 880px;
-}
-.menunav a 
-{
-    text-decoration:none;
-    display: flex;
-    margin-left: 60px;
-    justify-content: end;
+    margin-top: 0px;
     font-size: 20px;
-    color: #0065FC;
-    border-top: 2px solid #ffffff;
-}
-
-.menunav a:hover
-{
-    border-top: 2px solid #0065FC;
-}
-.menunav a:hover .Activités
-{
-    color: #0065FC;
-}
-
-.menunav ul a .Activités
-{
-    color: black;
-}
-
-
-
-.Activité .grande
-{
-    width: 400px;
-	height: 400px;
-}
-
-.Activité .moyen
-{
-    width: 200px;
-	height: 200px;
-}
-
-h1
-{
-    font-size: 2.0em;
-}
-
-.recherche #recherche .icone
-{
-    color: black;
-}
-
-.recherche em
-{
-    font-size: 1.2em;
-}
-
-.recherche h1 
-{
-    margin-bottom: 0.10em;
-}
-
-button
-{
-    background-color:#0065FC;
-    border-radius:0 1em 1em 0 ;
-    font-size: 1.15rem;
-    color: white;
-    padding: 0.5rem 0.75rem;
-    margin-bottom: 30px;
+   
     
 }
 
+header .menunav ul li .Hébergement{
 
-
-#recherche form p i
-{
-    background-color: #F2F2F2;
-    padding: 1rem 1rem;
-    border-radius: 1rem 0 0 1rem;
-    text-align: center;
-    font-size: 1em;
+    color: #0065FC;
+}
+header .inscription a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #0065FC;
 }
 
-
-#recherche form p input
-{
-border-right: none;
-border-left: none;
-border-top: #F2F2F2 1px solid;
-border-bottom: #F2F2F2 1px solid;
-padding-bottom: 0.25em;
-
-font-size: 2em;
-font-weight: bold;
-font-family: "Raleway","Sans serif";
-}
-
-
-.recherche #recherche form
-    {
-        display: inline-flex;
-        max-width: 100%;
-        overflow: auto;
-        font-size: 0.80em;
-        padding: 1.5rem 1.5rem;
-    }
-
-.filtres
-{
+header .menunav {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    float: right;
+    font-size: 20px;
 }
 
-.filtres ul
-{
+header .menunav ul{
+    display: inline-flex;
+    flex-direction: row;
     list-style-type: none;
-    display: flex;
+    
+   
 }
 
-.filtres ul li 
-{
-    margin-left: 15px;
+
+header .menunav ul li a{
+    margin-right: 50px;
+    text-decoration: none;
+    
 }
 
-.filtres ul li i
-{
-    color: blue;
+header .menunav ul li .activité{
+color: black;
+}
+
+header .menunav a:hover{
+    border-top: 2px solid #0065FC;
+
 }
