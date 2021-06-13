@@ -30,6 +30,9 @@
     /* url(raleway/Raleway-Italic-VariableFont_wght.ttf) format('truetype') */
 }
 
+body{
+    font-family: "Raleway", "Sans serif";
+}
 header img{
     display: inline-flex;
     justify-content: flex-start;
@@ -82,4 +85,96 @@ color: black;
 header .menunav a:hover{
     border-top: 2px solid #0065FC;
 
+}
+
+ h1{
+font-size: 2em;
+margin-bottom: 0;
+}
+
+.recherche p{
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+button
+{
+    background-color:#0065FC;
+    border-radius:0 1em 1em 0 ;
+    font-size: 1.15rem;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 30px;
+    
+}
+
+#recherche form i
+{
+    background-color: #F2F2F2;
+    padding: 1rem 1rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#recherche form  input
+{
+border-right: none;
+border-left: none;
+border-top: #F2F2F2 1px solid;
+border-bottom: #F2F2F2 1px solid;
+padding-bottom: 0.25em;
+
+font-size: 1.8em;
+font-weight: bold;
+font-family: "Raleway","Sans serif";
+}
+
+
+
+
+
+
+
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.filtres ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.filtres ul li 
+{
+    margin-left: 15px;
+    border: solid 1px #F2F2F2;
+    padding-right: 00.5rem;
+    border-radius: 1.6rem 1rem 1rem 1.6rem;
+}
+
+.filtres ul li i
+{
+    color: #0065FC;
+    background-color:#DEEBFF;
+    border-radius: 100%  ;
+    padding: 1rem 1rem;
+    margin-left: 20px;
+   
+}
+
+.filtres ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.filtres ul a:hover{
+    color: blue;
 }
