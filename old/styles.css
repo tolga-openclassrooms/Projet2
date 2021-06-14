@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
@@ -252,6 +253,7 @@ button
     display: flex; 
     border-radius: 6px 6px 6px 6px; 
     margin-bottom: 20px; 
+}
 }
 .texte{
     flex-direction: column;
