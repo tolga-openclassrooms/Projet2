@@ -228,13 +228,9 @@ button
     border: solid 4px white;
     display: flex; 
     border-radius: 6px 6px 6px 6px; 
-    margin-top: 20px;
-    margin-bottom: 20px;  
+    margin: 20px; 
 }
 
-.populaires #aside .un p{
-   
-}
 
 
 .populaires #aside .deux {
@@ -243,21 +239,19 @@ button
     border: solid 4px white;
     display: flex; 
     border-radius: 6px 6px 6px 6px;
-    margin-bottom: 20px;  
+    margin: 20px; 
 }
 .populaires #aside .trois{
     padding: 20px;
     background-color: white;
     border: solid 4px white;
     display: flex; 
-    border-radius: 6px 6px 6px 6px; 
-    margin-bottom: 20px; 
+    border-radius: 30px 30px 30px 30px; 
+    margin: 20px; 
 }
-.texte{
-    flex-direction: column;
-    display: flex;
-    float: right;
-    justify-content: flex-end;
+
+.populaires .element{
+flex-wrap: wrap;
 }
 
 .populaires #aside nav ul li {
@@ -267,14 +261,74 @@ button
 
 
 
+/*---------HEBERGEMENT A MARSEILLE------*/
 
 
+.article{
+    
+    float: left;
+    border:solid 1px black;
+    border-radius: 3em;
+    padding: 10px;
+    background-color: #F2F2F2;
+    padding-bottom: 50px;  
+}
 
+.article img{
+    height: 100px;
+    width: 250px;
+    border-radius: 30px 30px 0 0;
+    
+    
+}
+#conteneur h3{
+    font-size: 15px;
+}
+#conteneur .top{
+    display: inline-flex;
+    flex-direction: row;
+}
+#conteneur .element1{
+    border: solid 5px black;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10;
+    margin: 10px;
+    align-items: center;
+    
+}
 
+#conteneur .element2{
+    border: solid 5px black;
+    border-radius: 30px 30px 30px 30px;
+   align-items: center;
+    padding: 10;
+    margin: 10px;
+    float: left;
+    margin-bottom: 70px;
+    
+}
 
+#conteneur .element1 nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: blue;
+    
+}
+#conteneur .element2 nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: blue;
+}
+.article p strong{
+    font-weight: bold;
+    margin: 50px;
+    font-size: 20px;
+}
 /*--------ACTIVITE A MARSEILLE---------*/
+
 .loisirs img{
     height: 200px;
     width: 200px;
- 
 }
