@@ -1,0 +1,21 @@
+
+
+@media screen  { 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header img
+{
+    display: inline-flex;
+}
+
+header .inscription{
+    float: right;
+
+}
+
+}

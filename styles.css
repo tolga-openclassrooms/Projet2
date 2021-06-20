@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-body{
+body
+{
     font-family: 'Raleway', sans-serif;
-    
+    background-color: aliceblue;
 }
 
 /*-----------------HEADER-------------*/
-header img{
+
+header img
+{
     display: inline-flex;
     margin-left: 20px;
-    
 }
 
 header .inscription{
@@ -18,12 +20,10 @@ header .inscription{
     margin-top: 0px;
     font-size: 20px;
     margin-right: 50px;
-   
-    
 }
 
-header .menunav ul li .Hébergement{
-
+header .menunav ul li .Hébergement
+{
     color: #0065FC;
 }
 header .inscription a{
@@ -32,45 +32,48 @@ header .inscription a{
     color: #0065FC;
 }
 
-header .menunav {
+header .menunav
+{
     display: flex;
     float: right;
     font-size: 20px;
 }
 
-header .menunav ul{
+header .menunav ul
+{
     display: inline-flex;
     flex-direction: row;
     list-style-type: none;
-    
-   
 }
 
 
-header .menunav ul li a{
+header .menunav ul li a
+{
     margin-right: 50px;
     text-decoration: none;
-    
 }
 
-header .menunav ul li .activité{
+header .menunav ul li .activité
+{
 color: black;
 }
 
-header .menunav a:hover{
+header .menunav a:hover
+{
     border-top: 2px solid #0065FC;
-
 }
 
 /*---------------------SECTION RECHERCHE--------------*/
 
- h1{
+ h1
+{
 font-size: 30px;
 margin-bottom: 0;
 margin-left: 20px;
 }
 
-.recherche p{
+.recherche p
+{
     font-size: 1.3em;
     margin-top: 0;
     margin-left: 20px;
@@ -84,7 +87,6 @@ button
     color: white;
     padding: 0.5rem 0.75rem;
     margin-bottom: 30px;
-    
 }
 
  form i
@@ -124,7 +126,6 @@ button
     justify-content: flex-start;
     align-items: center;
     margin-left: 20px;
-   
 }
 
 .filtres ul
@@ -149,29 +150,31 @@ button
     background-color:#DEEBFF;
     border-radius: 100%  ;
     padding: 1rem 1rem;
-    
-   
 }
 
-.filtres ul li a {
-
+.filtres ul li a 
+{
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
 
-.filtres ul a:hover{
+.filtres ul a:hover
+{
     color: blue;
 }
 
 
 /*--------------DIV INFO-----------*/
 
-.info{
+.info
+{
     display: flex;
     align-items: center;
 }
- .info i{
+ 
+.info i
+{
     color: #0065FC;
     border: 0.1em solid #F2F2F2;
     border-radius: 1.0em;
@@ -184,7 +187,8 @@ button
     margin-left: 20px;
 }
 
-.info p{
+.info p
+{
     display: flex;
     margin-left: 5px;
     font-size: 20px;
@@ -193,43 +197,42 @@ button
 /*--------------SECTION POPULAIRES-----------------*/
 
 
-.populaires h2{
+.populaires h2
+{
    display: flex;
    justify-content: space-between;
    margin-left: 20px;
    margin-right: 20px;
 }
 
-.populaires{
+.populaires
+{
     
     float: right;
     margin-bottom: 10px;
     border-radius: 3em;
     padding: 10px;
     background-color: #F2F2F2; 
-     
 }
-.populaires #aside{
+.populaires #aside
+{
     display: flex;
    flex-direction: column;
-   
-    
 }
-.populaires #aside img{
+.populaires #aside img
+{
     height: 150px;
     width: 150px;
     border-radius: 2em 0 0 2em;
-    
-    
 }
 
-.populaires #aside .un{
-    
+.populaires #aside .un
+{
     padding: 20px;
     display: flex; 
     border-radius: 3em 3em 3em 3em; 
     margin: 10px; 
-   cursor: pointer;
+    cursor: pointer;
     background-color: white;
 }
 
@@ -253,19 +256,20 @@ button
     display: flex; 
     border-radius: 3em 3em 3em 3em; 
     margin: 20px; 
-
 }
-.populaires #aside .deux ul{
+
+.populaires #aside .deux ul
+{
     margin: 0%;
     margin-top: 70px;
     list-style-type: none;
     color: #0065FC;
     display: inline-flex;
     flex-direction: row;
-
 }
-.populaires #aside  ul {
-    
+
+.populaires #aside  ul 
+{
     margin-top: 90px;
     list-style-type: none;
     color: #0065FC;
@@ -273,14 +277,20 @@ button
     flex-direction: row;
 }
 
-.populaires #aside .un h3, .populaires #aside .un p{
+.populaires #aside .un h3, .populaires #aside .un p
+{
     margin: 0;
     margin-left: 20px;
-} .populaires #aside .deux h3,  .populaires #aside .deux p{
+} 
+
+.populaires #aside .deux h3,  .populaires #aside .deux p
+{
     margin: 0;
     margin-left: 20px;
 }
-.populaires #aside .trois h3, .populaires #aside .trois p{
+
+.populaires #aside .trois h3, .populaires #aside .trois p
+{
     margin: 0;
     margin-left: 20px;
 }
@@ -288,8 +298,8 @@ button
 /*---------HEBERGEMENT A MARSEILLE------*/
 
 
-.article{
-    
+.article
+{
     float: left;
     border:solid 1px white;
     border-radius: 3em;
@@ -298,26 +308,33 @@ button
     padding-bottom: 50px;
     margin-left: 20px;  
 }
-.article h2{
+
+.article h2
+{
     margin-left: 30px;
 }
-.article img{
+
+.article img
+{
     height: 140px;
     width: 270px;
     border-radius: 30px 30px 0 0;
-    
-    
 }
 
-#conteneur h3{
+#conteneur h3
+{
     font-size: 20px;
     font-weight: bold;
 }
-#conteneur .top{
+
+#conteneur .top
+{
     display: inline-flex;
     flex-direction: row;
 }
-#conteneur .element1{
+
+#conteneur .element1
+{
     border: solid 10px white;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
@@ -327,11 +344,13 @@ button
     cursor: pointer;
 }
 
-#conteuneur .element1 nav, #conteneur .element1 p, #conteneur .element1 h3{
+#conteuneur .element1 nav, #conteneur .element1 p, #conteneur .element1 h3
+{
     margin: 0%;
 }
 
-#conteneur .element2{
+#conteneur .element2
+{
     border: solid 10px white;
     border-radius: 30px 30px 30px 30px;
     font-size: 15px;
@@ -342,23 +361,25 @@ button
     cursor: pointer;
 }
 
-#conteneur .element1 nav ul{
+#conteneur .element1 nav ul
+{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     color: #0065FC;
-    
 }
-#conteneur .element2 nav ul{
+
+#conteneur .element2 nav ul
+{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     color: #0065FC;
-    
 }
 
 
-.article p a {
+.article p a 
+{
     text-decoration: none;
     font-weight: bold;
     margin: 50px;
@@ -366,91 +387,107 @@ button
     color: black;
 }
 
-.article p a:hover{
+.article p a:hover
+{
     color: blue;
 }
+
+
 /*--------ACTIVITE A MARSEILLE---------*/
 
 
+.marseille h2
+{
+    margin-bottom: 0%;
+}
 
-#loisirs{
-    
+#loisirs
+{
     display: flex;
     align-items: center;
-   float: left;
-    }
+    float: left;
+}
 
-    #loisirs .photo1{
-        cursor: pointer;
-        display: block;
-        margin: 60px;
-        align-items: center;
-    }
+#loisirs .photo1
+{
+    background-color: white;
+    border-radius: 3em;
+    cursor: pointer;
+    display: block;
+    margin: 60px;
+    align-items: center;
+}
 
-    #loisirs .photo2{
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 50px;
-    }
-    #loisirs .photo3{
-        cursor: pointer;
-        margin: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+#loisirs .photo2
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+#loisirs .photo3
+{
+    cursor: pointer;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
     
     
-    #loisirs .grande
-    {
-       
-        width: 250px;
-        height: 450px;
-        border-radius: 20px;
-    }
+#loisirs .grande
+{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
     
-    #loisirs .moyen
-    {
-        width: 200px;
-        height: 200px;
-        border-radius: 20px;
-    }
+#loisirs .moyen
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
 
-
+   
  /*----------FOOTER PROPOS---------*/
-#footer{
+#footer
+{
 display: inline-flex;
 background-color: #F2F2F2;
-
-
 }
-#footer h4{
+
+#footer h4
+{
     font-size: 20px;
 }
 
-#footer .propos{
+#footer .propos
+{
     margin-left: 100px;
     float: left;
     display: inline-flex;
     flex-direction: column;
  }
 
- #footer .noshebergements{
+ #footer .noshebergements
+ {
    margin-left: 300px;
    flex-direction: column;
    display: inline-flex;
 }
  
-#footer .assistance{
+#footer .assistance
+{
    margin-left: 300px;
    flex-direction: column;
    display: inline-flex;
 }
 
-#footer a {
+#footer a 
+{
     margin: 5px;
     margin-left: 0%;
     cursor: pointer;
@@ -458,7 +495,8 @@ background-color: #F2F2F2;
     color: black;
 }
 
-#footer  a:hover{
+#footer  a:hover
+{
     text-decoration: underline;
 }
 
