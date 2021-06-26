@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -25,8 +27,8 @@ header #logo img
 
 header .inscription
 {
-    margin-top: 40px;
     float: right;
+    margin-top: 40px;
     margin-right: 50px;
 }
 
@@ -35,11 +37,6 @@ header nav ul li a
  color: black;
 }
 
-
-header ul li .hebergement
-{
-    color: #0065FC;
-}
 header .inscription a
 {
     font-weight: bold;
@@ -49,8 +46,7 @@ header .inscription a
 
 header nav
 {
-    
-    margin-top: 38px;
+    margin-top: 0;
     display: flex;
     float: right;
     font-size: 20px;
@@ -66,7 +62,7 @@ header nav ul
 
 
 header nav ul li a
-{
+{   
     margin-right: 50px;
     text-decoration: none;
 }
@@ -77,8 +73,13 @@ header nav ul li a:hover
  }
 header nav ul li:hover
 {
-    
     border-top: 2px solid #0065FC;
+}
+
+header nav ul li
+{
+    padding-top: 38px;
+   
 }
 
 /*---------------------SECTION RECHERCHE--------------*/
@@ -659,3 +660,129 @@ footer
     text-decoration: underline;
 }
 
+
+
+/*-----MEDIA QUERIES------*/
+
+@media screen and (max-width:503px)
+{ 
+     
+    /*---RESET---*/
+    *{
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        font-family: 'Raleway', sans-serif;
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+
+    /*---------HEADER----------*/
+
+    header nav 
+    {
+        float: none;
+        display: inline-block;
+        justify-content: space-around;
+        
+        width: 100%;
+    }
+    header nav ul 
+    {
+        font-size: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+        border-bottom:solid 3px #F2F2F2;
+    }
+    
+    header nav li a
+    {
+        font-size: 20px;
+    }
+    header nav ul li:hover
+    {
+        border-bottom: solid 3px #0065FC;
+        border-top: none;
+    }
+
+/*---------SECTION RECHERCHE--------*/
+h1
+{
+    margin-top: 40px;
+}
+
+.recherche p
+{
+    margin-top: 15px;
+}
+
+button 
+{
+    font-size: 1em;
+}
+
+form i 
+{
+    font-size: 0.9em;
+}
+
+form input
+{
+    font-size: 0.9em;
+}
+
+/*----------Hébergement à Marseille-------*/
+ .article
+ {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border:solid 1px white;
+    border-radius: 3em;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    align-items: center;  
+ } 
+
+ #conteneur .top
+ {
+     display: flex;
+     flex-direction: column;
+ }
+
+ #conteneur .bottom
+ {
+     display: flex;
+     flex-direction: column;
+ }
+#conteneur .element1
+
+{
+    display: flex;
+    flex-direction: column;
+}
+#conteneur .element2
+{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.article img
+{
+    height: 200px;
+    width: 400px;
+    border-radius: 30px 30px 0 0;
+}
+
+
+
+}
