@@ -30,6 +30,7 @@ header .inscription
     float: right;
     margin-top: 40px;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 header nav ul li a 
@@ -698,9 +699,9 @@ footer
 
     header nav 
     {
+       
         float: none;
         display: inline-block;
-        margin-left: 40px;
         width: 100%;
     }
 
@@ -711,19 +712,19 @@ footer
 
     header nav ul 
     {
+        
         font-size: 20px;
         width: 100%;
         justify-content: space-evenly;
-        border-bottom:solid 3px #F2F2F2;
+        
     }
-    
+
     header nav li a
     {
         font-size: 20px;
     }
     header nav ul li:hover
     {
-        border-bottom: solid 3px #0065FC;
         border-top: none;
     }
 
@@ -774,11 +775,12 @@ form input
 /*----------Hébergement à Marseille-------*/
  .article
  {
+    padding-right: 0%; 
     background-color: white;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    border:solid 1px white;
+    border:solid 3px white;
     border-radius: 3em;
     padding: 10px;
     padding-bottom: 50px;
@@ -786,8 +788,14 @@ form input
     align-items: center;  
  } 
 
- #conteneur .top
+ .article h2
  {
+     margin-left: 20%;
+ }
+
+ #conteneur .top
+ 
+{
      display: flex;
      flex-direction: column;
  }
@@ -810,7 +818,6 @@ form input
     border: solid 3px #F2F2F2;
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 
 
@@ -831,6 +838,15 @@ form input
    margin: none;
 }
 
+/*-------- Aside Populaires --------*/
+
+.populaires 
+{
+    display: block;
+}
+
+
+
 /*-------- Activité à Marseille --------*/
 .marseille
 {
@@ -838,7 +854,8 @@ form input
 }
 .marseille h2 
 {
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -860,8 +877,20 @@ form input
 
 #footer 
 {
- display: block;
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .noshebergements
+{
+    margin-top: 30px;
+   margin-left: 40px;
+}
+
+#footer .assistance
+{
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 }
