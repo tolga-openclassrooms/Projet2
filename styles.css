@@ -66,24 +66,28 @@ header nav ul
 
 header nav ul li a
 {   
+    
     font-size: 18px;
     margin-right: 50px;
     text-decoration: none;
 }
 
-header nav ul li a:hover
- {
-    color: #0065FC;
- }
-header nav ul li:hover
+header nav ul li:hover 
 {
     border-top: 2px solid #0065FC;
 }
 
 header nav ul li
 {
+    
+    border-top: 2px solid #F2F2F2;
     padding-top: 38px;
    
+}
+
+header nav ul li:hover a
+{
+    color: #0065FC;
 }
 
 /*---------------------SECTION RECHERCHE--------------*/
