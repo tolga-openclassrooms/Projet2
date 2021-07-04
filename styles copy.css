@@ -18,8 +18,6 @@ body
     font-family: 'Raleway', sans-serif;
     padding: 10px;
     font-size: 18px;
-    width: fit-content;
-    margin: auto;
 }
 
 /*-----------------HEADER-------------*/
@@ -65,7 +63,7 @@ header nav ul
 header nav ul li
 {
     border-top: 2px solid #fff;
-    padding-top: 38px;
+    padding-top: 38px;   
 }
 
 header nav ul li:hover 
@@ -115,7 +113,6 @@ header nav ul li a
 {
     align-items: center;
 }
-
 button
 {
     background-color:#0065FC;
@@ -123,14 +120,8 @@ button
     font-size: 1.5rem;
     color: white;
     padding: 10px;
-}
 
-.boutonderecherche .boutonderecherche_mobile {
-    display: none;
-}
-
-.boutonderecherche .boutonderecherche_bureau {
-    display: inline;
+    
 }
 
  form i
@@ -535,7 +526,7 @@ button
 
 #loisirs .derniere 
 {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #loisirs .photo1
@@ -702,9 +693,8 @@ footer
 
     body
     {
-        width: auto;
         font-family: 'Raleway', sans-serif;
-        padding: 0px;
+        padding: 10px;
         font-size: 18px;
     }
     
@@ -714,19 +704,14 @@ footer
     header nav 
     {
        
-        float: none;
+        /* float: none; */
         display: flex;
         width: 100%;
     }
 
-    header #logo img {
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-
     header .inscription
     {
-        margin-right: 10px;
+        margin-right: 0px;
     }
 
     header nav ul 
@@ -735,16 +720,14 @@ footer
         font-size: 20px;
         width: 100%;
         justify-content: space-evenly;
-        text-align: center;
+        
     }
     header nav ul li {
-     border-top: none;
-     width: 50%;
+     border-top: none;   
     }
-    header nav ul li a
+    header nav li a
     {
         font-size: 20px;
-        margin-right: 0px;
     }
     header nav ul li:hover 
     {
@@ -756,8 +739,6 @@ footer
 h1
 {
     margin-top: 40px;
-    font-size: 24px;
-    margin-left: 20px;
 }
 
 
@@ -765,8 +746,6 @@ h1
 .recherche p
 {
     margin-top: 15px;
-    margin-left: 20px;
-    font-size: 18px;
 }
 
 button 
@@ -781,77 +760,23 @@ form
 form i 
 {
     font-size: 0.9em;
-    margin-left: 20px;
 }
 
 form input
 {
     font-size: 0.9em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.boutonderecherche {
-    border-radius: 0.6em 0.6em 0.6em 0.6em;    
-}
-
-.boutonderecherche i {
-    margin-left: 0px;
-    padding: 0px;
-}
-
-.boutonderecherche .boutonderecherche_mobile {
-    display: inline;
-}
-
-.boutonderecherche .boutonderecherche_bureau {
-    display: none;
-}
-
-.boutonderecherche_mobile {
-    background-color: transparent;
 }
 
 .filtres 
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
 }
 
 .filtres ul 
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0px;
-    margin-top: 10px;
-}
-
-.filtres ul li
-{
-    margin-left: 0px;
-    margin-right: 10px;
-    padding-right: 5px;
-    margin-top: 10px;
-}
-
-.filtres ul li a {
-    font-size: 16px;
-}
-
-.info {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.info i {
-    margin-left: 0px;
-}
-
-.info p {
-    font-size: 14px;
 }
 
 /*----------Hébergement à Marseille-------*/
@@ -867,12 +792,12 @@ form input
     padding: 10px;
     padding-bottom: 50px;
     margin-left: 20px;
-    /*align-items: center;*/  
+    align-items: center;  
  } 
 
  .article h2
  {
-     margin-left: 20px;
+     margin-left: 20%;
  }
 
  #conteneur .top
@@ -888,6 +813,7 @@ form input
      flex-direction: column;
  }
 #conteneur .element1
+
 {
     border: solid 3px #F2F2F2;
     display: block;
@@ -901,24 +827,14 @@ form input
     flex-direction: column;
 }
 
-#conteneur .element1_texte
 
-{
-    padding: 10px;
-}
-#conteneur .element2_texte
-{
-    padding: 10px;
-}
 
-.article {
-    margin-left: 0px;
-}
+
 
 .article img
 {
     height: 200px;
-    width: 100%;
+    width: 400px;
     border-radius: 30px 30px 0 0;
 }
 
@@ -934,36 +850,8 @@ form input
 .populaires 
 {
     display: block;
-    margin-right: 0px;
-    border-radius: 0;
 }
 
-.populaires h2 {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.populaires #aside .un {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
-}
-
-.populaires #aside .deux {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
-}
-
-.populaires #aside .trois {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
-}
-
-.populaires #aside ul {
-    margin-top: 20%;
-}
 
 
 /*-------- Activité à Marseille --------*/
@@ -987,13 +875,8 @@ form input
 
 #loisirs .moyen, #loisirs .petit, #loisirs .large, #loisirs .xlarge
 {
-    height:200px;
-    width:100%;
-}
-
-#loisirs .derniere 
-{
-    margin-left: 20px;
+    height:200px ;
+    width:400px ;
 }
 
 
