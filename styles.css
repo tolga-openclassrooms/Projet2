@@ -181,6 +181,7 @@ button
     font-weight: bold;
     margin-left: 15px;
     border: solid 3px #F2F2F2;
+    border-left: none;
     padding-right: 20px;
     border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
     margin-left: 20px;
@@ -191,7 +192,7 @@ button
     color: #0065FC;
     background-color:#DEEBFF;
     border-radius: 100%  ;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .filtres ul li a 
