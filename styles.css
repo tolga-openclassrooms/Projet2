@@ -244,8 +244,8 @@ button
     margin-bottom: 10px;
     margin-left: 40px;
     font-weight: bold;
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
    
 }
 
@@ -276,14 +276,14 @@ button
 {
     height: 150px;
     width: 150px;
-    border-radius: 2em 0 0 2em;
+    border-radius: 1em 0 0 1em;
 }
 
 .populaires #aside .un
 {
-    padding: 10px;
+    padding: 5px;
     display: flex; 
-    border-radius: 3em 3em 3em 3em; 
+    border-radius: 1em 1em 1em 1em; 
     margin: 20px; 
     margin-top: 10px;
     cursor: pointer;
@@ -293,21 +293,20 @@ button
 .populaires #aside .deux
  {
     cursor: pointer; 
-    padding: 10px;
+    padding: 5px;
     background-color: white;
     display: flex; 
-    border-radius: 3em 3em 3em 3em;
+    border-radius: 1em 1em 1em 1em;
     margin: 20px;
 }
 
 .populaires #aside .trois
 {
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     background-color: white;
-    border: solid 4px white;
     display: flex;
-    border-radius: 3em 3em 3em 3em; 
+    border-radius: 1em 1em 1em 1em; 
     margin: 20px; 
 }
 .populaires #aside .un .element  p
@@ -373,7 +372,7 @@ button
     border:solid 1px white;
     border-radius: 3em;
     padding: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     margin-left: 40px;  
 }
 
