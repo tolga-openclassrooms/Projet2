@@ -828,7 +828,7 @@ form input
 {
     margin-left: 0px;
     margin-right: 10px;
-    padding-right: 5px;
+    padding-right: 20px;
     margin-top: 10px;
 }
 
@@ -962,6 +962,8 @@ form input
 }
 .populaires #aside .un 
 {
+    margin-bottom: 0%;
+    padding: 5px;
     padding-right: 2px;
     margin-left: 0px;
     margin-right: 0px;
@@ -970,6 +972,9 @@ form input
 
 .populaires #aside .deux 
 {
+    margin-bottom: 0%;
+    margin-top: 10px;
+    padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 1em 1em 1em 1em;
@@ -977,6 +982,8 @@ form input
 
 .populaires #aside .trois 
 {
+    margin-top: 10px;
+    padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 1em 1em 1em 1em;
@@ -984,7 +991,7 @@ form input
 
 .populaires #aside ul 
 {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 
@@ -1016,7 +1023,7 @@ form input
 #loisirs .derniere
 {
     margin-left: 0%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #loisirs .moyen, #loisirs .petit, #loisirs .large, #loisirs .xlarge
@@ -1027,7 +1034,12 @@ form input
 
 #loisirs .photo5
 {
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+#loisirs .derniere .photo4
+{
+    margin-top: 20px;
 }
 
 
