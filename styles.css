@@ -127,6 +127,7 @@ button
 
 .boutonderecherche .boutonderecherche_bureau {
     display: inline;
+    cursor: pointer;
 }
 
  form i
@@ -677,7 +678,7 @@ footer
 
 /*-----MEDIA QUERIES------*/
 
-@media screen and (max-width:503px)
+@media screen and (max-width:380px)
 { 
      
     /*---RESET---*/
@@ -690,7 +691,7 @@ footer
 
     body
     {
-        width: auto;
+        width: 100%;
         font-family: 'Raleway', sans-serif;
         padding: 0px;
         font-size: 18px;
@@ -804,6 +805,7 @@ form input
 
 .boutonderecherche_mobile 
 {
+    cursor: pointer;
     background-color: transparent;
 }
 
@@ -931,6 +933,8 @@ form input
 
 .populaires 
 {
+    width:100%;
+    background-color: #F2F2F2;
     display: block;
     margin-right: 0px;
     border-radius: 0;
@@ -952,14 +956,16 @@ form input
 {
     font-size: 14px;
 }
-
+.populaires #aside img
+{
+    border-radius: 1em 0em 0em 1em;
+}
 .populaires #aside .un 
 {
-    background-color: white;
-    padding-right: 10px;
+    padding-right: 2px;
     margin-left: 0px;
     margin-right: 0px;
-    border-radius: 0.6em 0.6em 0.6em 0.6em;
+    border-radius: 1em 1em 1em 1em;
 }
 
 .populaires #aside .deux 
