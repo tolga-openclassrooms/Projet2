@@ -861,9 +861,7 @@ form input
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    border-radius: 3em;
     padding: 10px;
-    padding-bottom: 50px;
     margin-left: 0;
     margin-right: 0%;  
  } 
@@ -884,6 +882,7 @@ form input
 
  #conteneur .bottom
  {
+     margin-top: 10px;
      display: flex;
      flex-direction: column;
  }
@@ -929,7 +928,8 @@ form input
 
 .article p a 
 {
-   margin: none;
+   margin: 0;
+   margin-left: 10px;
 }
 
 /*-------- Aside Populaires --------*/
@@ -1001,6 +1001,7 @@ form input
 /*-------- Activité à Marseille --------*/
 .marseille
 {
+   
    margin-left: 10px;
    margin-right: 10px;
 }
