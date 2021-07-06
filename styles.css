@@ -669,7 +669,7 @@ footer
 
 /*---------tablette---------*/
 
-@media screen and (max-width:990px)
+@media screen and (min-width:505 max-width:990px)
 {
 
     /* reset */
@@ -949,23 +949,7 @@ footer
 }
 
 /*-------------Activités à Marseille---------*/
-.marseille
-{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#loisirs
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#loisirs .xlarge,#loisirs .large,#loisirs .moyen,#loisirs .petit
-{
-    width: 50%;
-    height: 200px;
-}
 
 
 }
