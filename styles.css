@@ -663,295 +663,127 @@ footer
 
 
 
-
-
-
-
 /*---------tablette---------*/
 
-@media screen and (min-width:505 max-width:990px)
+@media screen and (min-width:503px) and  (max-width:990px)
 {
 
-    /* reset */
-* 
-{
+/*---RESET---*/
+*{
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
 
-
-    body
-    {
-        width: 100%;
-        font-family: 'Raleway', sans-serif;
-        padding: 0px;
-        font-size: 18px;
-    } 
-
-/*----------------HEADER-------------*/
-    header nav 
-    {
-        float: none;
-        display: flex;
-        width: 100%;
-    }
-
-    
-    header #logo img {
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-
-    header .inscription
-    {
-        margin-right: 10px;
-    }
-
-    header nav ul 
-    {
-        width: 100%;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-    header nav ul li {
-     border-top: none;
-     width: 50%;
-     border-bottom: solid 2px #F2F2F2;
-     padding-bottom: 10px;
-    }
-    header nav ul li a
-    {
-        margin-right: 0px;
-    }
-    header nav ul li:hover 
-    {
-        border-top: none;
-        border-bottom: solid 2px #0065FC;
-    }
-
-    
-/*---------SECTION RECHERCHE--------*/
-
-  
- h1
- {   
-     font-weight: bold;
-     margin-top: 20px;
-     font-size: 24px;
-     margin-bottom: 0;
-     margin-left: 40px;
- }
- 
- .recherche p
- {
-     margin-top: 5px;
-     margin-left: 40px;
- }
- #recherche
- {
-     margin-top: 30px;
- }
- 
- #recherche form
- {
-     align-items: center;
- }
- 
- button
- {
-     background-color:#0065FC;
-     border-radius:0 0.5em 0.5em 0 ;
-     font-size: 18px;
-     color: white;
-     padding: 13px;
- }
- 
- .boutonderecherche .boutonderecherche_mobile {
-     display: none;
- }
- 
- .boutonderecherche .boutonderecherche_bureau {
-     display: inline;
-     cursor: pointer;
- }
- 
-  form i
- {
-     background-color: #F2F2F2;
-     padding: 13px;
-     border-radius: 1rem 0 0 1rem;
-     text-align: center;
-     font-size: 20px;
-     margin-left: 40px;
-     border-right: none;
- }
- 
-  form input
- {
-     border-right: none;
-     border-left: none;
-     border-top: #F2F2F2 1px solid;
-     border-bottom: #F2F2F2 1px solid;
-     padding: 10px;
-     font-size: 20px;
-     font-weight: bold;
-     font-family: "Raleway","Sans serif";
- }
- 
- 
- .filtres h2
- {
-     font-weight: bold;
- }
- 
- .filtres
- {
-     margin-top: 40px;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     margin-left: 40px;
- }
- 
- .filtres ul
- {
-     margin-left: 20px;
-     list-style-type: none;
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
- }
- 
- .filtres ul li 
- {
-     margin-top: 10px;
-     font-weight: bold;
-     margin-left: 15px;
-     border: solid 3px #F2F2F2;
-     border-left: none;
-     padding-right: 20px;
-     border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
-     margin-left: 20px;
- }
- 
- .filtres ul li i
- {
-     color: #0065FC;
-     background-color:#DEEBFF;
-     margin-top: -2px;
-     margin-bottom: -2px;
-     height: 45px;
-     width: 45px;
-     line-height: 45px;
-     text-align: center;
-     border-radius: 100px;
- 
- }
- 
- .filtres ul li a 
- {
-     text-decoration: none;
-     color: black;
-     font-size: 20px;
- }
- 
- .filtres ul a:hover
- {
-     
-     color: #0065FC;
- }
-  
-
- /*----------------------ASIDE POPULAIRES------------*/
-
-
-.populaires 
+body
 {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    font-size: 18px;
+}
+
+
+/*---------HEADER----------*/
+
+header nav 
+{
+   
     float: none;
-    margin: 0;
-    border-radius: 0%;
+    display: flex;
+    width: 100%;
+}
+
+header #logo img {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+header .inscription
+{
+    margin-right: 10px;
+}
+
+header nav ul 
+{
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+header nav ul li {
+ border-top: none;
+ width: 50%;
+ border-bottom: solid 2px #F2F2F2;
+ padding-bottom: 10px;
+}
+header nav ul li a
+{
+    margin-right: 0px;
+}
+header nav ul li:hover 
+{
+    border-top: none;
+    border-bottom: solid 2px #0065FC;
+}
+
+/*---------------------SECTION RECHERCHE--------------*/
+
+.filtres
+{
     flex-wrap: wrap;
 }
 
-.populaires #aside .element
-{
-    display: flex;
-    flex-direction: column;
-}
 
-.populaires #aside img
+/*-------------------POPULAIRES-------------*/
+
+
+.populaires
 {
-    width: 75%;
-    height: 300px;
+    float: none;
 }
 
 
-
-/*------------- Hebergement à Marseille--------*/
-.article 
+/*-----------------HEBERGEMENTS----------*/
+.article
 {
-    width: 100%;
-    margin: 0%;
-    margin-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-    
+    border-radius: 0;
+   margin-left: 0;
+   display: inline-block;
+   padding-left: 0;
+   padding-right: 0;
+   background-color: #F2F2F2;
+   width: 100%;
 }
 
 .article img
 {
-    width: 100%;
+    width: 326px;
 }
+
 
 #conteneur .top
 {
-    width: 50%;
+    
     display: inline-block;
     flex-direction: column;
 }
 
 #conteneur .bottom
 {
-    width: 49%;
-    display: inline-block;
+    align-items: flex-end;
+    float: right;
     flex-direction: column;
-}
-
-#conteneur .element1
-{
-    margin:0;
-    margin-top: 10px;
 }
 
 #conteneur .element2
 {
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
+/*----------------ACTIVITES A MARSEILLE----------*/
 
 
-
-/*----BOUTON AFFICHER PLUS----*/
-
-.article p a 
-{
-    display: block;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 20px;
-    color: black;
-}
-
-.article p a:hover
-{
-    color: blue;
-}
-
-/*-------------Activités à Marseille---------*/
-
-
-
+    
 }
 
 
@@ -962,7 +794,7 @@ footer
 
 /*-----MEDIA QUERIES------*/
 
-@media screen and (max-width:503px)
+@media screen and (max-width:502px)
 { 
      
     /*---RESET---*/
