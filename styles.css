@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  
 
 /* reset */
 * {
@@ -662,10 +663,9 @@ footer
 
 
 
-
 /*---------tablette---------*/
 
-@media screen and (min-width:503px) and  (max-width:990px)
+@media screen and (min-device-width:503px) and  (max-device-width:990px)
 {
 
 /*---RESET---*/
@@ -711,12 +711,15 @@ header nav ul
     justify-content: space-evenly;
     text-align: center;
 }
-header nav ul li {
+
+header nav ul li
+{
  border-top: none;
  width: 50%;
  border-bottom: solid 2px #F2F2F2;
  padding-bottom: 10px;
 }
+
 header nav ul li a
 {
     margin-right: 0px;
@@ -730,6 +733,11 @@ header nav ul li:hover
 /*---------------------SECTION RECHERCHE--------------*/
 
 .filtres
+{
+  
+}
+
+.filtres ul
 {
     flex-wrap: wrap;
 }
@@ -748,12 +756,12 @@ header nav ul li:hover
 .article
 {
     border-radius: 0;
-   margin-left: 0;
-   display: inline-block;
-   padding-left: 0;
-   padding-right: 0;
-   background-color: #F2F2F2;
-   width: 100%;
+    margin-left: 0;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #F2F2F2;
+    width: 100%;
 }
 
 .article img
@@ -781,6 +789,92 @@ header nav ul li:hover
     margin-bottom: 0;
 }
 /*----------------ACTIVITES A MARSEILLE----------*/
+
+.marseille
+
+{
+    margin-left: 0;
+}
+#loisirs 
+{
+    display: inline;
+}
+
+#loisirs .premiere
+{
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+#loisirs .derniere
+{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#loisirs .photo1
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: block;
+}
+
+
+#loisirs .derniere .photo4
+{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#loisirs .photo5
+{
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+#loisirs .xlarge
+{
+    width: 100%;
+    height: 300px;
+    
+}
+
+ #loisirs .large, #loisirs .moyen, #loisirs .petit
+{
+    width:100%;
+    height: 240px;
+}
+
+/*---------------------FOOTER---------------*/
+
+#footer 
+{
+    padding: 10px;
+}
+#footer .propos
+{
+    margin-left: 10px;
+}
+#footer .noshebergements
+{
+   margin-left: 50px;
+   flex-direction: column;
+   display: inline-flex;
+}
+ 
+#footer .assistance
+{
+   margin-left: 80px;
+   flex-direction: column;
+   display: inline-flex;
+}
+
 
 
     
