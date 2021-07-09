@@ -12,8 +12,8 @@
 
 body
 {
-    font-family: 'Raleway', sans-serif;
     padding: 10px;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     width: fit-content;
     margin: auto;
@@ -246,6 +246,7 @@ button
 
 .populaires h2
 {   
+    
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -264,19 +265,32 @@ button
 
 .populaires
 {
-    margin-right: 20px;
     margin-top: 20px;
-    float: right;
+    /*float: right;*/
     margin-bottom: 10px;
     border-radius: 3em;
     padding: 10px;
     background-color: #F2F2F2; 
+    margin-left: 40px;
 }
 
 .populaires #aside
 {
     display: flex;
    flex-direction: column;
+}
+
+#sectionAside {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* Ni tablette ni PC. Pour quand l'écran est trop petit pour la section "Populaires" */
+@media screen and (max-width:1280px) {
+    #sectionAside {
+        flex-direction: column;
+    }
 }
 
 .populaires #aside img
@@ -501,8 +515,7 @@ button
 
 #loisirs 
 {
-    
-    align-items: center;
+    /*align-items: center;*/
     float: none;
     display:inline-flex ;
 }
@@ -518,12 +531,18 @@ button
 }
 #loisirs .premiere
 {
-    margin: 20px;
+    /*margin: 20px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #loisirs .derniere 
 {
-    margin-left: 40px;
+   /* margin-left: 20px;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 #loisirs .photo1
@@ -543,52 +562,64 @@ button
 
 #loisirs .derniere .photo3
 {
-    margin-top: 0%;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
 
 #loisirs .derniere .photo4
 {
-    margin-top: 30px;
+    /*margin-top: 10px;*/
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
 
 #loisirs .photo5 
 {
-    margin-top: 80px;
+    
     border:solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
 
 #loisirs .xlarge
 {
-    width: 400px;
+    
+    width: 100%;
     height: 500px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
     
 #loisirs .large
 {
-    width: 300px;
+    width: 100%;
     height: 200px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 #loisirs .moyen
 {
     
-    width: 300px;
+    
+    width: 100%;
     height: 150px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #loisirs .petit
 {   
-    width: 280px;
+    /*width: 280px;*/
+    width: 100%;
     height: 200px;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
+
+#loisirs > div 
+{
+    flex: 25%;
+}
+
 
    
  /*----------FOOTER PROPOS---------*/
@@ -665,7 +696,7 @@ footer
 
 /*---------tablette---------*/
 
-@media screen and (min-device-width:503px) and  (max-device-width:990px)
+@media screen and (min-width:503px) and (max-width:990px)
 {
 
 /*---RESET---*/
@@ -678,10 +709,12 @@ footer
 
 body
 {
+    width: fit-content;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     padding: 0px;
     font-size: 18px;
+    
 }
 
 
@@ -730,16 +763,18 @@ header nav ul li:hover
     border-bottom: solid 2px #0065FC;
 }
 
+
 /*---------------------SECTION RECHERCHE--------------*/
 
-.filtres
-{
-  
-}
 
 .filtres ul
 {
     flex-wrap: wrap;
+}
+
+.filtres ul li 
+{
+    margin-top: 20px;
 }
 
 
@@ -747,10 +782,16 @@ header nav ul li:hover
 
 
 .populaires
-{
+{margin-left: 0px;
+    margin-right: 0;
     float: none;
+    border-radius: 0;
 }
 
+.populaires h2
+{
+    margin-right: 30px;
+}
 
 /*-----------------HEBERGEMENTS----------*/
 .article
@@ -766,28 +807,36 @@ header nav ul li:hover
 
 .article img
 {
-    width: 326px;
+    width: 100%;
+    object-fit: cover;
 }
 
+#conteneur {
+    display: flex;
+}
 
 #conteneur .top
 {
     
     display: inline-block;
     flex-direction: column;
+    width: 50%;
 }
 
 #conteneur .bottom
 {
-    align-items: flex-end;
-    float: right;
+    /*align-items: flex-end;
+    float: right;*/
+    display: inline-block;
     flex-direction: column;
+    width: 50%;
 }
 
 #conteneur .element2
 {
     margin-bottom: 0;
 }
+
 /*----------------ACTIVITES A MARSEILLE----------*/
 
 .marseille
@@ -815,6 +864,7 @@ header nav ul li:hover
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    width: 100%;
 }
 
 #loisirs .photo1
@@ -828,14 +878,15 @@ header nav ul li:hover
 
 #loisirs .derniere .photo4
 {
-    margin-top: 0;
-    margin-left: 10px;
+    
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 #loisirs .photo5
 {
-    margin-left: 10px;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-left: 0;
 }
 
 #loisirs .xlarge
@@ -1127,7 +1178,8 @@ form input
 
 .article img
 {
-    height: 100px;
+    /*height: 100px;*/
+    object-fit: cover;
     width: 100%;
     border-radius: 30px 30px 0 0;
 }
@@ -1147,8 +1199,9 @@ form input
     width:100%;
     background-color: #F2F2F2;
     display: block;
-    margin-right: 0px;
+    margin-right: 0;
     border-radius: 0;
+    margin-left: 0;
 }
 
 .populaires h2 
@@ -1227,8 +1280,10 @@ form input
 
 #loisirs .premiere 
 {
+    margin-top: 20px;
     margin-left: 0%;
     margin-right: 0%;
+    margin-bottom: 20px;
 }
 
 #loisirs .derniere
