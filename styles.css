@@ -12,7 +12,6 @@
 
 body
 {
-    padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     width: fit-content;
@@ -241,7 +240,25 @@ button
     margin-left: 10px;
 }
 
+/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
+
+#sectionAside 
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
 /*--------------SECTION POPULAIRES-----------------*/
+.populaires
+{
+    border-radius: 3em;
+    padding: 20px;
+    background-color: #F2F2F2; 
+}
 
 
 .populaires h2
@@ -250,7 +267,6 @@ button
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 40px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -263,16 +279,6 @@ button
     
 }
 
-.populaires
-{
-    margin-top: 20px;
-    /*float: right;*/
-    margin-bottom: 10px;
-    border-radius: 3em;
-    padding: 10px;
-    background-color: #F2F2F2; 
-    margin-left: 40px;
-}
 
 .populaires #aside
 {
@@ -280,18 +286,6 @@ button
    flex-direction: column;
 }
 
-#sectionAside {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-}
-
-/* Ni tablette ni PC. Pour quand l'écran est trop petit pour la section "Populaires" */
-@media screen and (max-width:1280px) {
-    #sectionAside {
-        flex-direction: column;
-    }
-}
 
 .populaires #aside img
 {
@@ -388,12 +382,9 @@ button
 {   
     background-color: #F2F2F2;
     display: inline-block;
-    margin-top: 20px;
     border:solid 1px white;
     border-radius: 3em;
-    padding: 10px;
-    padding-bottom: 25px;
-    margin-left: 40px;  
+    padding: 20px;
 }
 
 .article h2
@@ -501,21 +492,19 @@ button
 
 .marseille
 {
-    display: block;
-    float: none;
-    margin-left: 40px;
+    padding: 20px;
+
 }
 
 .marseille h2
 {
-    margin-left: 40px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-left: 10px;
 }
 
 #loisirs 
 {
-    /*align-items: center;*/
+    margin-top: 10px;
     float: none;
     display:inline-flex ;
 }
@@ -618,6 +607,7 @@ button
 #loisirs > div 
 {
     flex: 25%;
+    margin: 10px;
 }
 
 
@@ -626,13 +616,13 @@ button
 
 footer
 {
-    margin-top: 20px;
     background-color: #F2F2F2;
 }
 
  #footer
 {
-    display: inline-flex;
+    justify-content: space-evenly;
+    display: flex;
     padding: 30px;
 }
 
@@ -641,41 +631,10 @@ footer
     font-weight: bold;
 }
 
-#footer .propos
+#footer .pied_de_page
 {
-    margin-left: 40px;
-    float: left;
-    display: inline-flex;
-    flex-direction: column;;
- }
-
- #footer .propos a
- {
-     margin-top: 20px;
- }
-
- #footer .noshebergements a
- {
-     margin-top: 20px;
- }
-
- #footer .assistance a
- {
-     margin-top: 20px;
- }
-
- #footer .noshebergements
-{
-   margin-left: 200px;
-   flex-direction: column;
-   display: inline-flex;
-}
- 
-#footer .assistance
-{
-   margin-left: 200px;
-   flex-direction: column;
-   display: inline-flex;
+    display: flex;
+    flex-direction: column;
 }
 
 #footer a 
@@ -780,11 +739,14 @@ header nav ul li:hover
 
 /*-------------------POPULAIRES-------------*/
 
-
+#sectionaside
+{
+    display: none;
+}
 .populaires
-{margin-left: 0px;
+{
+    margin-left: 0px;
     margin-right: 0;
-    float: none;
     border-radius: 0;
 }
 
@@ -798,7 +760,7 @@ header nav ul li:hover
 {
     border-radius: 0;
     margin-left: 0;
-    display: inline-block;
+    display: block;
     padding-left: 0;
     padding-right: 0;
     background-color: #F2F2F2;
@@ -908,34 +870,12 @@ header nav ul li:hover
 {
     padding: 10px;
 }
-#footer .propos
+#footer .pied_de_page
 {
     margin-left: 10px;
 }
-#footer .noshebergements
-{
-   margin-left: 50px;
-   flex-direction: column;
-   display: inline-flex;
+
 }
- 
-#footer .assistance
-{
-   margin-left: 80px;
-   flex-direction: column;
-   display: inline-flex;
-}
-
-
-
-    
-}
-
-
-
-
-
-
 
 /*-----MEDIA QUERIES------*/
 
@@ -1317,24 +1257,33 @@ form input
     display: flex;
     flex-direction: column;
 }
-#footer .propos
+#footer .pied_de_page
 {
     margin-top: 20px;
     margin-left:  10px;
 }
-#footer .noshebergements
+
+}
+
+/* Ni tablette ni PC. Pour quand l'écran est trop petit pour la section "Populaires" */
+@media screen and  (min-width:991px) and (max-width:1280px) 
 {
-    margin-top: 20px;
-   margin-left: 10px;
-}
+    #sectionAside 
+    {
+        flex-direction: column;
+    }
 
-#footer .assistance
-{
-    margin-top: 20px;
-    margin-left: 10px;
+    .populaires
+    {
+        margin-bottom: 20px;
+    }
+    .populaires #aside
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+    }
 }
-
-}
-
 
 
