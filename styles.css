@@ -240,7 +240,7 @@ button
     margin-left: 10px;
 }
 
-/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
+
 
 #sectionAside 
 {
@@ -493,7 +493,6 @@ button
 .marseille
 {
     padding: 20px;
-
 }
 
 .marseille h2
@@ -505,11 +504,8 @@ button
 #loisirs 
 {
     margin-top: 10px;
-    float: none;
     display:inline-flex ;
 }
-
-
 
 #loisirs h3
 {
@@ -520,7 +516,6 @@ button
 }
 #loisirs .premiere
 {
-    /*margin: 20px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -528,7 +523,6 @@ button
 
 #loisirs .derniere 
 {
-   /* margin-left: 20px;*/
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -544,7 +538,6 @@ button
 
 #loisirs .photo2
 {
-    
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
@@ -557,14 +550,12 @@ button
 
 #loisirs .derniere .photo4
 {
-    /*margin-top: 10px;*/
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
 
 #loisirs .photo5 
 {
-    
     border:solid 2px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
@@ -587,8 +578,6 @@ button
 }
 #loisirs .moyen
 {
-    
-    
     width: 100%;
     height: 150px;
     border-radius: 20px 20px 0 0;
@@ -597,7 +586,6 @@ button
 
 #loisirs .petit
 {   
-    /*width: 280px;*/
     width: 100%;
     height: 200px;
     border-radius: 20px 20px 0 0;
@@ -681,8 +669,7 @@ body
 
 header nav 
 {
-   
-    float: none;
+    margin-bottom: 20px;
     display: flex;
     width: 100%;
 }
@@ -736,15 +723,20 @@ header nav ul li:hover
     margin-top: 20px;
 }
 
+/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
+
+#sectionAside
+{
+    padding: 0px;
+    display: block;
+}
 
 /*-------------------POPULAIRES-------------*/
 
-#sectionaside
-{
-    display: none;
-}
+
 .populaires
 {
+    margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 0;
     border-radius: 0;
@@ -760,7 +752,7 @@ header nav ul li:hover
 {
     border-radius: 0;
     margin-left: 0;
-    display: block;
+    display: inline-block;
     padding-left: 0;
     padding-right: 0;
     background-color: #F2F2F2;
@@ -787,8 +779,6 @@ header nav ul li:hover
 
 #conteneur .bottom
 {
-    /*align-items: flex-end;
-    float: right;*/
     display: inline-block;
     flex-direction: column;
     width: 50%;
@@ -804,7 +794,8 @@ header nav ul li:hover
 .marseille
 
 {
-    margin-left: 0;
+    margin-top: 20px;
+    padding: 10px;
 }
 #loisirs 
 {
@@ -814,25 +805,18 @@ header nav ul li:hover
 #loisirs .premiere
 {
     margin: 0;
-    margin-right: 10px;
     margin-top: 20px;
-    margin-left: 10px;
     display: inline-flex;
 }
 
 #loisirs .derniere
 {
     display: inline-flex;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100%;
 }
 
 #loisirs .photo1
 {
-    margin-right: 10px;
-    margin-left: 10px;
     margin-top: 20px;
     display: block;
 }
@@ -840,7 +824,6 @@ header nav ul li:hover
 
 #loisirs .derniere .photo4
 {
-    
     margin-top: 20px;
     margin-left: 0px;
 }
@@ -854,14 +837,18 @@ header nav ul li:hover
 #loisirs .xlarge
 {
     width: 100%;
-    height: 300px;
-    
+    height: 240px;
 }
 
  #loisirs .large, #loisirs .moyen, #loisirs .petit
 {
     width:100%;
     height: 240px;
+}
+
+#loisirs > div
+{
+    margin: 0px;
 }
 
 /*---------------------FOOTER---------------*/
@@ -877,7 +864,7 @@ header nav ul li:hover
 
 }
 
-/*-----MEDIA QUERIES------*/
+/*-----MEDIA QUERIES MOBILE------*/
 
 @media screen and (max-width:502px)
 { 
@@ -1053,83 +1040,12 @@ form input
     font-size: 14px;
 }
 
-/*----------Hébergement à Marseille-------*/
- .article
- { 
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding: 10px;
-    margin-left: 0;
-    margin-right: 0%;  
- } 
+/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
 
- .article h2
- {
-     margin-left: 10px;
- }
-
- #conteneur .top
- 
+#sectionAside
 {
-    margin-right: 0%;
-    margin-left: 0%;
-    display: flex;
-    flex-direction: column;
-}
-
- #conteneur .bottom
- {
-     margin-top: 10px;
-     display: flex;
-     flex-direction: column;
- }
-#conteneur .element1
-{
-    margin: 0;
-    margin-top: 10px;
-    margin-left: 0%;
-    margin-right: 0%;
-    border: solid 3px #F2F2F2;
     display: block;
-    flex-direction: column;
-    
-}
-#conteneur .element2
-{
-    margin-bottom: 10px;
-    margin-top: 0%;
-    margin-right: 0%;
-    margin-left: 0%;
-    border: solid 3px #F2F2F2;
-    display: flex;
-    flex-direction: column;
-}
-
-
-#conteneur .element_texte
-
-{
-    padding: 10px;
-}
-
-
-
-.article img
-{
-    /*height: 100px;*/
-    object-fit: cover;
-    width: 100%;
-    border-radius: 30px 30px 0 0;
-}
-
-/*----Bouton afficher plus----*/
-
-.article p a 
-{
-   margin: 0;
-   margin-left: 10px;
+    padding: 0px;
 }
 
 /*-------- Aside Populaires --------*/
@@ -1198,14 +1114,88 @@ form input
     margin-top: 70px;
 }
 
+/*----------Hébergement à Marseille-------*/
+ .article
+ { 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+ } 
+
+ .article h2
+ {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+ }
+
+ #conteneur .top
+ 
+{
+    margin-right: 0%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+ #conteneur .bottom
+ {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+ }
+#conteneur .element1
+{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: solid 3px #F2F2F2;
+    display: block;
+    flex-direction: column;
+    
+}
+#conteneur .element2
+{
+    margin-bottom: 10px;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    border: solid 3px #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#conteneur .element_texte
+
+{
+    padding: 10px;
+}
+
+
+
+.article img
+{
+    /*height: 100px;*/
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+/*----Bouton afficher plus----*/
+
+.article p a 
+{
+   margin: 0;
+   margin-left: 10px;
+}
+
+
 
 /*-------- Activité à Marseille --------*/
-.marseille
-{
-   
-   margin-left: 10px;
-   margin-right: 10px;
-}
+
 .marseille h2 
 {
     margin-bottom: 20px;
@@ -1238,14 +1228,20 @@ form input
     width:100%;
 }
 
+
 #loisirs .photo5
 {
-    margin-top: 20px;
+ margin-top: 20px;
 }
 
 #loisirs .derniere .photo4
 {
-    margin-top: 20px;
+   margin-top: 20px; 
+}
+
+#loisirs > div
+{
+    margin: 0px;
 }
 
 
@@ -1282,7 +1278,6 @@ form input
         display: flex;
         flex-direction: row;
         align-items: center;
-       
     }
 }
 
