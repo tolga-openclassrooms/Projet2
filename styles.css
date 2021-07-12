@@ -14,7 +14,6 @@ body
 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    width: fit-content;
     margin: auto;
 }
 
@@ -612,7 +611,6 @@ footer
 
 body
 {
-    width: fit-content;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     padding: 0px;
@@ -1185,5 +1183,4 @@ form input
     align-items: center;
 }
 }
-
 
