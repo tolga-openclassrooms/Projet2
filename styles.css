@@ -294,28 +294,8 @@ button
     border-radius: 1em 0 0 1em;
 }
 
-.populaires #aside .un
-{
-    padding: 5px;
-    display: flex; 
-    border-radius: 1em 1em 1em 1em; 
-    margin: 20px; 
-    margin-top: 10px;
-    cursor: pointer;
-    background-color: white;
-}
 
-.populaires #aside .deux
- {
-    cursor: pointer; 
-    padding: 5px;
-    background-color: white;
-    display: flex; 
-    border-radius: 1em 1em 1em 1em;
-    margin: 20px;
-}
-
-.populaires #aside .trois
+.populaires #aside .hotel
 {
     cursor: pointer;
     padding: 5px;
@@ -324,22 +304,12 @@ button
     border-radius: 1em 1em 1em 1em; 
     margin: 20px; 
 }
-.populaires #aside .un .element  p
+.populaires #aside .hotel .element  p
 {
     margin-top: 10px;
 }
 
-.populaires #aside .deux .element  p
-{
-    margin-top: 10px;
-}
-
-.populaires #aside .trois .element  p
-{
-    margin-top: 10px;
-}
-
-.populaires #aside .deux ul
+.populaires #aside .hotel ul
 {
     list-style-type: none;
     color: #0065FC;
@@ -347,33 +317,22 @@ button
     flex-direction: row;
 }
 
-.populaires #aside  ul 
+.populaires #aside .hotel  ul 
 {
     margin-left: 20px;
-    margin-top: 70px;
+    margin-top: 60px;
     list-style-type: none;
     color: #0065FC;
     display: inline-flex;
     flex-direction: row;
 }
 
-.populaires #aside .un h3, .populaires #aside .un p
+.populaires #aside .hotel h3, .populaires #aside .hotel p
 {
     margin: 0;
     margin-left: 20px;
 } 
 
-.populaires #aside .deux h3,  .populaires #aside .deux p
-{
-    margin: 0;
-    margin-left: 20px;
-}
-
-.populaires #aside .trois h3, .populaires #aside .trois p
-{
-    margin: 0;
-    margin-left: 20px;
-}
 
 /*---------HEBERGEMENT A MARSEILLE------*/
 
@@ -1167,14 +1126,10 @@ form input
     flex-direction: column;
 }
 
-
 #conteneur .element_texte
-
 {
     padding: 10px;
 }
-
-
 
 .article img
 {
@@ -1279,6 +1234,8 @@ form input
         flex-direction: row;
         align-items: center;
     }
+
+    
 }
 
 
