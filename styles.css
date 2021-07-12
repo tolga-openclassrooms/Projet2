@@ -400,8 +400,6 @@ button
     cursor: pointer;
 }
 
-
-
 #conteneur .element2
 {
     border: solid 10px white;
@@ -411,7 +409,6 @@ button
     background-color: white;
     cursor: pointer;
 }
-
 
 #conteneur .element1 nav ul
 {   
@@ -531,7 +528,7 @@ button
 #loisirs .large
 {
     width: 100%;
-    height: 200px;
+    height: 250px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
@@ -895,8 +892,6 @@ h1
     margin-left: 20px;
 }
 
-
-
 .recherche p
 {
     margin-top: 15px;
@@ -1011,18 +1006,8 @@ form input
 
 .populaires 
 {
-    width:100%;
-    background-color: #F2F2F2;
-    display: block;
-    margin-right: 0;
     border-radius: 0;
-    margin-left: 0;
-}
-
-.populaires h2 
-{
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 10px;
 }
 
 .populaires h3
@@ -1035,37 +1020,19 @@ form input
 {
     font-size: 14px;
 }
+
 .populaires #aside img
 {
     border-radius: 1em 0em 0em 1em;
 }
-.populaires #aside .un 
-{
-    margin-bottom: 0%;
-    padding: 5px;
-    padding-right: 2px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
-}
 
-.populaires #aside .deux 
-{
-    margin-bottom: 0%;
-    margin-top: 10px;
-    padding: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
-}
-
-.populaires #aside .trois 
+.populaires #aside .hotel 
 {
     margin-top: 10px;
+    margin-bottom: 0%;
     padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
-    border-radius: 1em 1em 1em 1em;
 }
 
 .populaires #aside ul 
@@ -1092,18 +1059,17 @@ form input
  #conteneur .top
  
 {
-    margin-right: 0%;
-    margin-left: 0%;
     display: flex;
     flex-direction: column;
 }
 
  #conteneur .bottom
- {
-     margin-top: 10px;
-     display: flex;
-     flex-direction: column;
- }
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 #conteneur .element1
 {
     margin: 0;
@@ -1111,10 +1077,8 @@ form input
     margin-left: 0%;
     margin-right: 0%;
     border: solid 3px #F2F2F2;
-    display: block;
-    flex-direction: column;
-    
 }
+
 #conteneur .element2
 {
     margin-bottom: 10px;
@@ -1122,8 +1086,6 @@ form input
     margin-right: 0%;
     margin-left: 0%;
     border: solid 3px #F2F2F2;
-    display: flex;
-    flex-direction: column;
 }
 
 #conteneur .element_texte
@@ -1133,7 +1095,6 @@ form input
 
 .article img
 {
-    /*height: 100px;*/
     object-fit: cover;
     width: 100%;
     border-radius: 30px 30px 0 0;
@@ -1147,15 +1108,10 @@ form input
    margin-left: 10px;
 }
 
-
-
 /*-------- Activité à Marseille --------*/
-
-.marseille h2 
+.marseille
 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    margin-left: 10px;
+    padding: 10px;
 }
 
 #loisirs 
@@ -1165,16 +1121,14 @@ form input
 
 #loisirs .premiere 
 {
-    margin-top: 20px;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #loisirs .derniere
 {
     margin-left: 0%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #loisirs .moyen, #loisirs .petit, #loisirs .large, #loisirs .xlarge
@@ -1183,23 +1137,20 @@ form input
     width:100%;
 }
 
-
 #loisirs .photo5
 {
- margin-top: 20px;
+ margin-top: 10px;
 }
 
 #loisirs .derniere .photo4
 {
-   margin-top: 20px; 
+   margin-top: 10px; 
 }
 
 #loisirs > div
 {
     margin: 0px;
 }
-
-
 
 /*---- A propos ----*/
 
