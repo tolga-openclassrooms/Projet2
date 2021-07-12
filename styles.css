@@ -767,6 +767,7 @@ header nav ul li:hover
 
 #loisirs .derniere
 {
+    margin-top: 20px;
     display: inline-flex;
     width: 100%;
 }
@@ -1042,19 +1043,19 @@ form input
 
 /*----------Hébergement à Marseille-------*/
  .article
- { 
+{ 
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 10px; 
- } 
+} 
 
  .article h2
- {
+{
     margin-top: 20px;
     margin-left: 10px;
     margin-bottom: 0px;
- }
+}
 
  #conteneur .top
  
@@ -1164,29 +1165,25 @@ form input
     margin-top: 20px;
     margin-left:  10px;
 }
-
 }
 
 /* Ni tablette ni PC. Pour quand l'écran est trop petit pour la section "Populaires" */
 @media screen and  (min-width:991px) and (max-width:1280px) 
 {
-    #sectionAside 
-    {
-        flex-direction: column;
-    }
-
-    .populaires
-    {
-        margin-bottom: 20px;
-    }
-    .populaires #aside
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    
+#sectionAside 
+{
+    flex-direction: column;
+}
+.populaires
+{
+    margin-bottom: 20px;
+}
+.populaires #aside
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 }
 
 
