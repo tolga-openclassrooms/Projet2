@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
   
 
+
 /* reset */
 * {
     margin: 0;
@@ -246,7 +247,7 @@ button
     margin-left: 10px;
 }
 
-
+/*---------SECTION POPULAIRES ET HEBERGEMENTS--------*/
 
 #sectionAside 
 {
@@ -254,6 +255,17 @@ button
     display: flex;
     flex-direction: row-reverse;
     padding: 20px;
+}
+
+.etoile_gris
+{
+    color: #F2F2F2;
+}
+
+nav ul li i
+{
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 
@@ -267,7 +279,6 @@ button
     background-color: #F2F2F2; 
 }
 
-
 .populaires h2
 {   
     
@@ -278,21 +289,12 @@ button
    
 }
 
-
-.populaires #aside
-{
-    display: flex;
-    flex-direction: column;
-}
-
-
 .populaires #aside img
 {
     height: 150px;
     width: 150px;
     border-radius: 1em 0 0 1em;
 }
-
 
 .populaires #aside .hotel
 {
@@ -303,24 +305,19 @@ button
     border-radius: 1em 1em 1em 1em; 
     margin: 20px; 
 }
-.populaires #aside .hotel .element  p
-{
-    margin-top: 10px;
-}
-
 
 .populaires #aside .hotel  ul 
 {
-    margin-left: 20px;
+    margin-left: 15px;
     list-style-type: none;
     color: #0065FC;
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    
 }
 
 .populaires #aside .hotel h3, .populaires #aside .hotel p
 {
-    margin: 0;
+    margin-top: 10px;
     margin-left: 20px;
 } 
 
@@ -354,15 +351,6 @@ button
     border-radius: 30px 30px 0 0;
 }
 
-#conteneur p
-{
-    margin-top: 10px;
-}
-
-#conteneur .top .element1 p
-{
- margin-top: 10px;
-}
 
 #conteneur .top
 {
@@ -375,9 +363,14 @@ button
     display: flex;
 }
 
+.element_texte
+{
+    margin-left: 10px;
+}
+
 #conteneur .element1
 {
-    border: solid 10px white;
+    padding: 5px;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     margin-left: 20px;
@@ -388,7 +381,7 @@ button
 
 #conteneur .element2
 {
-    border: solid 10px white;
+    padding: 5px;
     border-radius: 30px 30px 30px 30px;
     margin: 10px;
     margin-bottom: 50px;
