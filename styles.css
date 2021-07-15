@@ -306,7 +306,7 @@ nav ul li i
     margin: 20px; 
 }
 
-.populaires #aside .hotel .element >div
+.populaires #aside .hotel .element
 {
     flex-direction: column;
     display: flex;
