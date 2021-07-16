@@ -118,11 +118,6 @@ h2, h3, h4
     margin-top: 30px;
 }
 
-/* #recherche form
-{
-    align-items: center;
-} */
-
 button
 {
     background-color:#0065FC;
@@ -264,7 +259,6 @@ button
 nav ul li i
 {
     font-size: 16px;
-    margin-left: 5px;
 }
 
 
@@ -534,9 +528,7 @@ nav ul li i
     margin: 10px;
 }
 
-
-   
- /*----------FOOTER PROPOS---------*/
+/*----------FOOTER PROPOS---------*/
 
 footer
 {
@@ -570,8 +562,6 @@ footer
     text-decoration: underline;
 }
 
-
-
 /*---------tablette---------*/
 
 @media screen and (min-width:503px) and (max-width:990px)
@@ -581,7 +571,6 @@ footer
 {
     width: 100%;
 }
-
 
 /*---RESET---*/
 *{
@@ -599,7 +588,6 @@ body
     font-size: 18px;
     
 }
-
 
 /*---------HEADER----------*/
 
@@ -645,9 +633,7 @@ header nav ul li:hover
     border-bottom: solid 2px #0065FC;
 }
 
-
 /*---------------------SECTION RECHERCHE--------------*/
-
 
 .filtres ul
 {
@@ -736,6 +722,7 @@ header nav ul li:hover
     margin-top: 20px;
     padding: 10px;
 }
+
 #loisirs 
 {
     display: inline;
@@ -872,115 +859,116 @@ header nav ul li:hover
         border-bottom: solid 2px #0065FC;
     }
 
-/*---------SECTION RECHERCHE--------*/
-h1
-{
-    margin-top: 40px;
-    font-size: 24px;
-    margin-left: 20px;
-}
+    /*---------SECTION RECHERCHE--------*/
+    h1
+    {
+        margin-top: 40px;
+        font-size: 24px;
+        margin-left: 20px;
+    }
 
-.recherche p
-{
-    margin-top: 15px;
-    margin-left: 20px;
-    font-size: 18px;
-}
+    .recherche p
+    {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
 
-button 
-{
-    font-size: 1em;
-}
-form
-{
-    font-size: 20px;
-    
-}
-form i 
-{
-    font-size: 0.9em;
-    margin-left: 20px;
-}
+    button 
+    {
+        font-size: 1em;
+    }
 
-form input
-{
-    font-size: 0.9em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
+    form
+    {
+        font-size: 20px;
+    }
 
-.boutonderecherche 
-{
-    border-radius: 0.6em 0.6em 0.6em 0.6em;    
-}
+    form i 
+    {
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
 
-.boutonderecherche i 
-{
-    margin-left: 0px;
-    padding: 0px;
-}
+    form input
+    {
+        font-size: 0.9em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-.boutonderecherche .boutonderecherche_mobile 
-{
-    display: inline;
-}
+    .boutonderecherche 
+    {
+        border-radius: 0.6em 0.6em 0.6em 0.6em;    
+    }
 
-.boutonderecherche .boutonderecherche_bureau 
-{
-    display: none;
-}
+    .boutonderecherche i 
+    {
+        margin-left: 0px;
+        padding: 0px;
+    }
 
-.boutonderecherche_mobile 
-{
-    cursor: pointer;
-    background-color: transparent;
-}
+    .boutonderecherche .boutonderecherche_mobile 
+    {
+        display: inline;
+    }
 
-.filtres 
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
+    .boutonderecherche .boutonderecherche_bureau 
+    {
+        display: none;
+    }
 
-.filtres ul 
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    margin-top: 10px;
-}
+    .boutonderecherche_mobile 
+    {
+        cursor: pointer;
+        background-color: transparent;
+    }
 
-.filtres ul li
-{
-    margin-left: 0px;
-    margin-right: 10px;
-    padding-right: 20px;
-    margin-top: 10px;
-}
+    .filtres 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
 
-.filtres ul li a 
-{
-    font-size: 16px;
-}
+    .filtres ul 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 
-.info 
-{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+    .filtres ul li
+    {
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
 
-.info i 
-{
-    margin-left: 0px;
-}
+    .filtres ul li a 
+    {
+        font-size: 16px;
+    }
 
-.info p 
-{
+    .info 
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .info i 
+    {
+        margin-left: 0px;
+    }
+
+    .info p 
+    {
     font-size: 14px;
-}
+    }
 
 /*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
 
@@ -1100,6 +1088,7 @@ form input
 
 #loisirs 
 {
+    display: block;
     flex-direction: column;
 }
 
