@@ -886,17 +886,12 @@ header nav ul li:hover
 
     form i 
     {
-        font-size: 0.9em;
         margin-left: 20px;
     }
 
     form input
     {
-        font-size: 0.9em;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
+        height: 2.5em;
     }
 
     .boutonderecherche 
