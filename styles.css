@@ -537,9 +537,10 @@ footer
 
  #footer
 {
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
     padding: 30px;
+    width: 75%;
 }
 
 #footer .pied_de_page
@@ -782,6 +783,7 @@ header nav ul li:hover
 
 #footer 
 {
+    width: 100%;
     padding: 10px;
 }
 #footer .pied_de_page
@@ -1137,6 +1139,11 @@ header nav ul li:hover
 /* Ni tablette ni PC. Pour quand l'écran est trop petit pour la section "Populaires" */
 @media screen and  (min-width:991px) and (max-width:1280px) 
 {
+
+.contenu
+{
+    width: 100%;
+}
 #sectionAside 
 {
     flex-direction: column;
