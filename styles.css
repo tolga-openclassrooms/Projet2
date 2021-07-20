@@ -564,7 +564,7 @@ footer
 
 /*---------tablette---------*/
 
-@media screen and (max-width:1500px)
+@media screen  and (max-width:1200px)
 {
 
 .contenu
@@ -966,19 +966,22 @@ header nav ul li:hover
     margin-left: 10px;
     margin-bottom: 0px;
 }
-
+#conteneur
+{
+    display: block;
+}
  #conteneur .top
  
 {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: block;
 }
 
  #conteneur .bottom
 {
+    width: 100%;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 #conteneur .element1
@@ -1028,7 +1031,6 @@ header nav ul li:hover
 #loisirs 
 {
     display: block;
-    flex-direction: column;
 }
 
 #loisirs .premiere 
@@ -1068,7 +1070,6 @@ header nav ul li:hover
 
 #footer 
 {
-    display: flex;
     flex-direction: column;
 }
 #footer .pied_de_page
