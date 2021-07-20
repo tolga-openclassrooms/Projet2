@@ -771,7 +771,7 @@ header nav ul li:hover
 
 /*-----MEDIA QUERIES MOBILE------*/
 
-@media screen and (max-width:502px)
+@media screen and (max-width:600px)
 { 
     .contenu
     {
