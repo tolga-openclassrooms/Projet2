@@ -384,11 +384,6 @@ nav ul li i
 
 /*----BOUTON AFFICHER PLUS----*/
 
-.article p
-{
-    margin: 30px 0px 10px 50px;
-}
-
 .article p a 
 {
     text-decoration: none;
@@ -620,6 +615,7 @@ header nav ul li:hover
 
 .populaires
 {
+    width: 100%;
     padding: 10px 0px 5px 0px;
     margin-left: 0px;
     margin-right: 0;
@@ -652,28 +648,10 @@ header nav ul li:hover
     object-fit: cover;
 }
 
-#conteneur {
+#conteneur 
+{
+    padding: 10px;
     display: flex;
-}
-
-#conteneur .top
-{
-    
-    display: inline-block;
-    flex-direction: column;
-    width: 50%;
-}
-
-#conteneur .bottom
-{
-    display: inline-block;
-    flex-direction: column;
-    width: 50%;
-}
-
-#conteneur .element2
-{
-    margin-bottom: 0;
 }
 
 /*----------------ACTIVITES A MARSEILLE----------*/
@@ -984,11 +962,6 @@ header nav ul li:hover
 }
 
 /*----Bouton afficher plus----*/
-
-.article p
-{
-    margin: 20px 0px 0px 10px
-}
 
 
 /*-------- Activité à Marseille --------*/
