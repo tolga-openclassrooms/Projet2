@@ -246,6 +246,7 @@ button
 
 #sectionAside 
 {
+    justify-content: space-between;
     margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -266,10 +267,9 @@ nav ul li i
 /*--------------SECTION POPULAIRES-----------------*/
 .populaires
 {
-    margin-left: 50px;
-    flex: 100%;
+    padding: 20px 0px;
+    width: 30%;
     border-radius: 3em;
-    padding: 20px;
     background-color: #F2F2F2; 
 }
 
@@ -324,7 +324,7 @@ nav ul li i
 
 .article
 {   
-    flex:100%;
+    width: 68%;
     background-color: #F2F2F2;
     display: inline-block;
     border:solid 1px white;
@@ -342,20 +342,17 @@ nav ul li i
 .article img
 {
     height: 140px;
-    width: 270px;
+    width: 100%;
     border-radius: 30px 30px 0 0;
 }
 
 
-#conteneur .top
+#conteneur 
 {
     display: flex;
     flex-direction: row;
-}
-
-#conteneur .bottom
-{
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .element_texte
@@ -365,24 +362,15 @@ nav ul li i
 
 #conteneur .element1
 {
+    margin-top: 10px;
+    width: 32%;
     padding: 5px;
     background-color: white;
     border-radius: 30px 30px 30px 30px;
-    margin-left: 20px;
-    margin: 10px;
     align-items: center;
     cursor: pointer;
 }
 
-#conteneur .element2
-{
-    padding: 5px;
-    border-radius: 30px 30px 30px 30px;
-    margin: 10px;
-    margin-bottom: 50px;
-    background-color: white;
-    cursor: pointer;
-}
 
 #conteneur .element1 nav ul
 {   
@@ -393,22 +381,18 @@ nav ul li i
     color: #0065FC;
 }
 
-#conteneur .element2 nav ul
-{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    color: #0065FC;
-}
 
 /*----BOUTON AFFICHER PLUS----*/
+
+.article p
+{
+    margin: 30px 0px 10px 50px;
+}
 
 .article p a 
 {
     text-decoration: none;
     font-weight: bold;
-    margin: 50px;
     color: black;
 }
 
@@ -927,6 +911,7 @@ header nav ul li:hover
 
 .populaires 
 {
+    width: 100%;
     margin-left: 0px;
     border-radius: 0;
     padding: 10px;
@@ -966,18 +951,8 @@ header nav ul li:hover
     margin-left: 10px;
     margin-bottom: 0px;
 }
-#conteneur
-{
-    display: block;
-}
- #conteneur .top
- 
-{
-    width: 100%;
-    display: block;
-}
 
- #conteneur .bottom
+#conteneur 
 {
     width: 100%;
     margin-top: 10px;
@@ -986,21 +961,15 @@ header nav ul li:hover
 
 #conteneur .element1
 {
+    width: 100%;
     margin: 0;
     margin-top: 10px;
     margin-left: 0%;
     margin-right: 0%;
     border: solid 3px #F2F2F2;
+    padding: 0px;
 }
 
-#conteneur .element2
-{
-    margin-bottom: 10px;
-    margin-top: 0%;
-    margin-right: 0%;
-    margin-left: 0%;
-    border: solid 3px #F2F2F2;
-}
 
 #conteneur .element_texte
 {
@@ -1016,11 +985,11 @@ header nav ul li:hover
 
 /*----Bouton afficher plus----*/
 
-.article p a 
+.article p
 {
-   margin: 0;
-   margin-left: 10px;
+    margin: 20px 0px 0px 10px
 }
+
 
 /*-------- Activité à Marseille --------*/
 .marseille
