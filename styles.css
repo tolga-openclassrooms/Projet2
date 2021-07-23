@@ -10,12 +10,12 @@
     box-sizing: border-box;
 }
 /* Bloc qui contient tout */
+
 .contenu
 {
     margin: 0 auto;
-    width: 1500px;
+    width: 1440px;
 }
-
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -241,157 +241,119 @@ button
     display: flex;
     margin-left: 10px;
 }
+/*****************Hébergements et Populaires******************/
 
-/*---------SECTION POPULAIRES ET HEBERGEMENTS--------*/
-
-#sectionAside 
+#hebergements-populaires 
 {
-    justify-content: space-between;
-    margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
-    padding: 20px;
-}
-
-.etoile_gris
-{
-    color: #F2F2F2;
-}
-
-nav ul li i
-{
-    font-size: 16px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px 50px;
 }
 
 
-/*--------------SECTION POPULAIRES-----------------*/
-.populaires
+/************** Section populaires *******************/
+#populaires 
 {
-    padding: 20px 0px;
-    width: 30%;
+    width: 32%;
+    padding: 40px;
+    border-radius: 3em;
+    background-color: #F2F2F2; 
+}
+#populaires img 
+{
+    height: 134px;
+    width: 127px;
+    border-radius: 1em 0 0 1em;
+    object-fit: cover;
+}
+#populaires h2 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.populaire 
+{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 1.2em; 
+    margin-top: 40px;
+}
+.populaire ul 
+{
+    list-style-type: none;
+    color: #0065FC;
+    margin-top: auto;
+}
+.populaire ul li 
+{
+    display: inline-block;
+}
+.populaire .populaire-contenu 
+{
+    padding-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/************** Section hébergements *******************/
+#hebergements {
+    width: 65%;
+    padding: 40px;
     border-radius: 3em;
     background-color: #F2F2F2; 
 }
 
-.populaires h2
-{   
-    margin-left: 20px;
-    margin-top: 30px;
+#hebergements-grille {
     display: flex;
     justify-content: space-between;
-}
-
-.populaires #aside img
-{
-    height: 150px;
-    width: 150px;
-    border-radius: 1em 0 0 1em;
-}
-
-.populaires #aside .hotel
-{
-    cursor: pointer;
-    padding: 5px;
-    background-color: white;
-    display: flex;
-    border-radius: 1em 1em 1em 1em; 
-    margin: 20px; 
-}
-
-.populaires #aside .hotel .element
-{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-}
-
-.populaires #aside .hotel  ul 
-{
-    margin-left: 15px;
-    list-style-type: none;
-    color: #0065FC;
-    display: flex;
-    
-}
-
-.populaires #aside .hotel h3, .populaires #aside .hotel p
-{
-    margin-top: 10px;
-    margin-left: 20px;
-} 
-
-/*---------HEBERGEMENT A MARSEILLE------*/
-
-.article
-{   
-    width: 68%;
-    background-color: #F2F2F2;
-    display: inline-block;
-    border:solid 1px white;
-    border-radius: 3em;
-    padding: 20px;
-}
-
-.article h2
-{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
-
-.article img
-{
-    height: 140px;
-    width: 100%;
-    border-radius: 30px 30px 0 0;
-}
-
-
-#conteneur 
-{
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.element_texte
-{
-    margin-left: 10px;
+#hebergements img {
+    height: 114px;
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
 }
-
-#conteneur .element1
-{
-    margin-top: 10px;
-    width: 32%;
-    padding: 5px;
-    background-color: white;
-    border-radius: 30px 30px 30px 30px;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-#conteneur .element1 nav ul
-{   
-    margin-top: 10px;
+.hebergement {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 31%;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 1.2em; 
+    margin-top: 40px;
+}
+
+.hebergement ul {
     list-style-type: none;
     color: #0065FC;
+    margin-top: auto;
 }
-
+.hebergement ul li {
+    display: inline-block;
+}
 
 /*----BOUTON AFFICHER PLUS----*/
 
-.article p a 
+#afficher
+{
+    padding-top: 50px;
+}
+#afficher a
 {
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
-
-.article p a:hover
+#afficher a:hover
 {
     color: blue;
 }
@@ -541,14 +503,12 @@ footer
     text-decoration: underline;
 }
 
-/*---------tablette---------*/
-
-@media screen  and (max-width:1200px)
+/************** Tablette ***********************/
+@media screen and (max-width: 1440px) 
 {
-
-.contenu
+.contenu 
 {
-    width: 100%;
+    width: 990px;
 }
 
 /*---------HEADER----------*/
@@ -602,56 +562,26 @@ header nav ul li:hover
     margin-top: 20px;
 }
 
-/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
+/***************** Hébergements et Populaires**************/
 
-#sectionAside
+#hebergements-populaires 
 {
-    padding: 0px;
-    display: block;
+    flex-direction: column;
+    padding: 0%;
+}
+#hebergements 
+{
+    margin-top: 20px;
+}
+#hebergements, #populaires 
+{
+    width: 100%
 }
 
-/*-------------------POPULAIRES-------------*/
-
-
-.populaires
+/***************** AFFICHER PLUS ******************/
+#afficher
 {
-    width: 100%;
-    padding: 10px 0px 5px 0px;
-    margin-left: 0px;
-    margin-right: 0;
-    border-radius: 0;
-}
-
-.populaires h2
-{
-    margin-right: 30px;
-}
-
-.populaires #aside .hotel 
-{
-    margin: 10px;
-}
-/*-----------------HEBERGEMENTS----------*/
-.article
-{
-    border-radius: 0;
-    margin-left: 0;
-    display: inline-block;
-    padding: 0 0 10px 0px;
-    background-color: #F2F2F2;
-    width: 100%;
-}
-
-.article img
-{
-    width: 100%;
-    object-fit: cover;
-}
-
-#conteneur 
-{
-    padding: 10px;
-    display: flex;
+    padding-top: 20px;
 }
 
 /*----------------ACTIVITES A MARSEILLE----------*/
@@ -731,243 +661,183 @@ header nav ul li:hover
 
 }
 
-/*-----MEDIA QUERIES MOBILE------*/
-
-@media screen and (max-width:600px)
-{ 
-    .contenu
-    {
-        width: 100%;
-    }
-
-    /*---------HEADER----------*/
-
-    header nav 
-    {
-       
-        float: none;
-        display: flex;
-        width: 100%;
-    }
-
-    header #logo img {
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-
-    header .inscription
-    {
-        margin-top: 43px;
-    }
-
-    header nav ul 
-    {
-        width: 100%;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-    header nav ul li {
-     border-top: none;
-     width: 50%;
-     border-bottom: solid 3px #F2F2F2;
-     padding-bottom: 10px;
-    }
-    header nav ul li a
-    {
-        width: 100%;
-    }
-    header nav ul li:hover 
-    {
-        border-top: none;
-        border-bottom: solid 3px #0065FC;
-    }
-
-    /*---------SECTION RECHERCHE--------*/
-    h1
-    {
-        margin-top: 40px;
-        margin-left: 20px;
-    }
-
-    .recherche p
-    {
-        margin-top: 15px;
-        margin-left: 20px;
-    }
-
-    button 
-    {
-        font-size: 1em;
-    }
-
-    form
-    {
-        font-size: 20px;
-    }
-
-    form i 
-    {
-        margin-left: 20px;
-    }
-
-    form input
-    {
-        height: 2.5em;
-    }
-
-    .boutonderecherche 
-    {
-        border-radius: 0.6em 0.6em 0.6em 0.6em;    
-    }
-
-    .boutonderecherche i 
-    {
-        margin-left: 0px;
-        padding: 0px;
-    }
-
-    .boutonderecherche .boutonderecherche_mobile 
-    {
-        display: inline;
-    }
-
-    .boutonderecherche .boutonderecherche_bureau 
-    {
-        display: none;
-    }
-
-    .boutonderecherche_mobile 
-    {
-        cursor: pointer;
-        background-color: transparent;
-    }
-
-    .filtres 
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 20px;
-    }
-
-    .filtres ul 
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    .filtres ul li
-    {
-        margin-left: 0px;
-        margin-right: 10px;
-        padding-right: 20px;
-        margin-top: 10px;
-    }
-
-    .info 
-    {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .info i 
-    {
-        margin-left: 0px;
-    }
-
-
-/*----------------SECTION POPULAIRE ET HEBERGEMENT A MARSEILLE--------------*/
-
-#sectionAside
+@media screen and (max-width:990px) 
 {
-    display: block;
+.contenu 
+{
+    width: 100%;
+}
+/*---------HEADER----------*/
+
+header nav 
+{
+    
+    float: none;
+    display: flex;
+    width: 100%;
+}
+
+header #logo img {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+header .inscription
+{
+    margin-top: 43px;
+}
+
+header nav ul 
+{
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+header nav ul li {
+    border-top: none;
+    width: 50%;
+    border-bottom: solid 3px #F2F2F2;
+    padding-bottom: 10px;
+}
+header nav ul li a
+{
+    width: 100%;
+}
+header nav ul li:hover 
+{
+    border-top: none;
+    border-bottom: solid 3px #0065FC;
+}
+
+/*---------SECTION RECHERCHE--------*/
+h1
+{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.recherche p
+{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+button 
+{
+    font-size: 1em;
+}
+
+form
+{
+    font-size: 20px;
+}
+
+form i 
+{
+    margin-left: 20px;
+}
+
+form input
+{
+    height: 2.5em;
+}
+
+.boutonderecherche 
+{
+    border-radius: 0.6em 0.6em 0.6em 0.6em;    
+}
+
+.boutonderecherche i 
+{
+    margin-left: 0px;
     padding: 0px;
 }
 
-/*-------- Aside Populaires --------*/
-
-.populaires 
+.boutonderecherche .boutonderecherche_mobile 
 {
-    width: 100%;
-    margin-left: 0px;
-    border-radius: 0;
-    padding: 10px;
+    display: inline;
 }
 
-.populaires h3
+.boutonderecherche .boutonderecherche_bureau 
 {
-    padding-top: 10px;
+    display: none;
 }
 
-.populaires #aside img
+.boutonderecherche_mobile 
 {
-    border-radius: 1em 0em 0em 1em;
+    cursor: pointer;
+    background-color: transparent;
 }
 
-.populaires #aside .hotel 
+.filtres 
 {
-    margin-top: 10px;
-    margin-bottom: 0%;
-    padding: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-/*----------Hébergement à Marseille-------*/
- .article
-{ 
-    background-color: white;
     display: flex;
-    flex-direction: column;
-    padding: 10px; 
-} 
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
 
- .article h2
+.filtres ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.filtres ul li
+{
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.info 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info i 
+{
+    margin-left: 0px;
+}
+/*************Hébergements et Populaires*****/
+
+#hebergements-populaires 
+{
+    padding: 0px;
+}
+/******************* Hébergements**************/
+.hebergement 
 {
     margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 0px;
+    width: 100%
 }
 
-#conteneur 
-{
-    width: 100%;
-    margin-top: 10px;
-    display: block;
+#hebergements {
+    background: none;
+    padding: 20px;
+    margin-top: 20px;
 }
-
-#conteneur .element1
+ /************** Populaires************/   
+#populaires 
 {
-    width: 100%;
-    margin: 0;
-    margin-top: 10px;
-    margin-left: 0%;
-    margin-right: 0%;
-    border: solid 3px #F2F2F2;
-    padding: 0px;
-}
-
-
-#conteneur .element_texte
-{
-    padding: 10px;
-}
-
-.article img
-{
-    object-fit: cover;
-    width: 100%;
-    border-radius: 30px 30px 0 0;
+    padding: 20px;
+    border-radius: 0;
 }
 
 /*----Bouton afficher plus----*/
-
+#afficher
+{
+    padding-top: 20px;
+}
 
 /*-------- Activité à Marseille --------*/
 .marseille
 {
-    padding: 10px;
+    margin-top: 0%;
+    padding: 20px;
 }
 
 #loisirs 
@@ -977,14 +847,14 @@ header nav ul li:hover
 
 #loisirs .premiere 
 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #loisirs .derniere
 {
     margin-left: 0%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #loisirs .moyen, #loisirs .petit, #loisirs .large, #loisirs .xlarge
@@ -995,12 +865,12 @@ header nav ul li:hover
 
 #loisirs .photo5
 {
- margin-top: 10px;
+ margin-top: 20px;
 }
 
 #loisirs .derniere .photo4
 {
-   margin-top: 10px; 
+   margin-top: 20px; 
 }
 
 #loisirs > div
