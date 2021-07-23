@@ -279,6 +279,7 @@ button
     cursor: pointer;
     padding: 5px;
     background-color: #ffffff;
+    box-shadow: 5px 5px 5px #F2F2F2;
     border-radius: 1.2em; 
     margin-top: 40px;
 }
@@ -609,6 +610,11 @@ header nav ul li:hover
     margin-top: 20px;
     display: inline-flex;
     width: 100%;
+}
+
+#loisirs .photo1, #loisirs .photo2, #loisirs .photo3, #loisirs .photo4, #loisirs .photo5
+{
+    box-shadow: 5px 5px 5px #F2F2F2;
 }
 
 #loisirs .photo1
