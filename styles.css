@@ -339,11 +339,17 @@ button
     border-radius: 1.2em; 
     margin-top: 40px;
 }
+.hebergement p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .hebergement ul {
     list-style-type: none;
     color: #0065FC;
     margin-top: auto;
+    margin-bottom: 5px;
 }
 .hebergement ul li {
     display: inline-block;
