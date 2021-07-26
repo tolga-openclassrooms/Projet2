@@ -290,11 +290,22 @@ button
     border-radius: 1.2em; 
     margin-top: 40px;
 }
+.populaire p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.populaire h3
+{
+    margin-top: 10px;
+}
 .populaire ul 
 {
     list-style-type: none;
     color: #0065FC;
     margin-top: auto;
+    margin-bottom: 5px;
 }
 .populaire ul li 
 {
@@ -338,6 +349,11 @@ button
     background-color: #ffffff;
     border-radius: 1.2em; 
     margin-top: 40px;
+}
+
+.hebergement h3
+{
+    margin-top: 10px;
 }
 .hebergement p
 {
