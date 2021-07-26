@@ -364,7 +364,7 @@ button
 
 .marseille
 {
-    padding: 20px;
+    padding: 40px;
 }
 
 .marseille h2
@@ -826,7 +826,12 @@ form input
     padding: 20px;
     margin-top: 20px;
 }
- /************** Populaires************/   
+ /************** Populaires************/
+
+ .populaire
+{
+    margin-top: 20px;
+}   
 #populaires 
 {
     padding: 20px;
